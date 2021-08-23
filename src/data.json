@@ -2,256 +2,391 @@
     {
         "name": "Alabama",
         "abbreviation": "AL",
-        "questions": [
-          {
-            "label": "Do you currently have a felony?",
-            "options": [
-              {
-                "label": "Yes",
-                "answer": "Okay cool"
-              },
-              {
-                "label": "No",
-                "answer": "That is not cool"
-              },
-              {
-                "label": "idk",
-                "answer": "Okay..."
-              }
-            ]
-          }          
-        ]
+        "isSelected": false
     },
     {
         "name": "Alaska",
-        "abbreviation": "AK"
+        "abbreviation": "AK",
+        "isSelected": false,
+        "questions": [
+            {
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "That is not cool"
+                    }
+                ]
+            },
+            {
+                "value": "Have you been convicted of one or more of the following felonies?",
+                "extra": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+                "selectedOption":  null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "That is not cool"
+                    }
+                ]
+            },
+            {
+                "value": "Were you convicted in an Arizona state court, a federal court, a state court in a different state than Arizona, or in multiple settings?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Okay we get it"
+                    },
+                    {
+                        "value": "No",
+                        "result": "That is not cool"
+                    }
+                ]
+                
+            }
+        ]
     },
     {
         "name": "American Samoa",
-        "abbreviation": "AS"
+        "abbreviation": "AS",
+        "isSelected": false
     },
     {
         "name": "Arizona",
-        "abbreviation": "AZ"
+        "abbreviation": "AZ",
+        "isSelected": false
     },
     {
         "name": "Arkansas",
-        "abbreviation": "AR"
+        "abbreviation": "AR",
+        "isSelected": false
     },
     {
         "name": "California",
-        "abbreviation": "CA"
+        "abbreviation": "CA",
+        "isSelected": false
     },
     {
         "name": "Colorado",
-        "abbreviation": "CO"
+        "abbreviation": "CO",
+        "isSelected": false
     },
     {
         "name": "Connecticut",
-        "abbreviation": "CT"
+        "abbreviation": "CT",
+        "isSelected": false
     },
     {
         "name": "Delaware",
-        "abbreviation": "DE"
+        "abbreviation": "DE",
+        "isSelected": false
     },
     {
         "name": "District Of Columbia",
-        "abbreviation": "DC"
+        "abbreviation": "DC",
+        "isSelected": false
     },
     {
         "name": "Federated States Of Micronesia",
-        "abbreviation": "FM"
+        "abbreviation": "FM",
+        "isSelected": false
     },
     {
         "name": "Florida",
-        "abbreviation": "FL"
+        "abbreviation": "FL",
+        "isSelected": false
     },
     {
         "name": "Georgia",
-        "abbreviation": "GA"
+        "abbreviation": "GA",
+        "isSelected": false
     },
     {
         "name": "Guam",
-        "abbreviation": "GU"
+        "abbreviation": "GU",
+        "isSelected": false
     },
     {
         "name": "Hawaii",
-        "abbreviation": "HI"
+        "abbreviation": "HI",
+        "isSelected": false,
+        "questions": [
+            {
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "<h2>You can vote.</h2> In Hawaii, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/hawaii' target='_blank'>Register to vote with our friends at Vote.org.</a>"
+                    }
+                ]
+            },
+            {
+                "value": "Have you completed your sentence for a felony, including probation or parole?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "<h2>You can vote.</h2>In Hawaii, people with felony convictions can vote after they are released from incarceration. That’s true even if you are on probation or parole. <br /><br /><a href='https://www.vote.org/register-to-vote/hawaii' target='_blank'>Register to vote with our friends at Vote.org.</a>"
+                    },
+                    {
+                        "value": "No",
+                        "result": null
+                    }
+                ]
+            },
+            {
+                "value": "Are you on probation or parole for a felony or currently incarcerated for a misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "You can vote."
+                    },
+                    {
+                        "value": "No",
+                        "result": "You not eligible to vote."
+                    }
+                ]
+            }
+        ]
     },
     {
         "name": "Idaho",
-        "abbreviation": "ID"
+        "abbreviation": "ID",
+        "isSelected": false
     },
     {
         "name": "Illinois",
-        "abbreviation": "IL"
+        "abbreviation": "IL",
+        "isSelected": false
     },
     {
         "name": "Indiana",
-        "abbreviation": "IN"
+        "abbreviation": "IN",
+        "isSelected": false
     },
     {
         "name": "Iowa",
-        "abbreviation": "IA"
+        "abbreviation": "IA",
+        "isSelected": false
     },
     {
         "name": "Kansas",
-        "abbreviation": "KS"
+        "abbreviation": "KS",
+        "isSelected": false
     },
     {
         "name": "Kentucky",
-        "abbreviation": "KY"
+        "abbreviation": "KY",
+        "isSelected": false
     },
     {
         "name": "Louisiana",
-        "abbreviation": "LA"
+        "abbreviation": "LA",
+        "isSelected": false
     },
     {
         "name": "Maine",
-        "abbreviation": "ME"
+        "abbreviation": "ME",
+        "isSelected": false
     },
     {
         "name": "Marshall Islands",
-        "abbreviation": "MH"
+        "abbreviation": "MH",
+        "isSelected": false
     },
     {
         "name": "Maryland",
-        "abbreviation": "MD"
+        "abbreviation": "MD",
+        "isSelected": false
     },
     {
         "name": "Massachusetts",
-        "abbreviation": "MA"
+        "abbreviation": "MA",
+        "isSelected": false
     },
     {
         "name": "Michigan",
-        "abbreviation": "MI"
+        "abbreviation": "MI",
+        "isSelected": false
     },
     {
         "name": "Minnesota",
-        "abbreviation": "MN"
+        "abbreviation": "MN",
+        "isSelected": false
     },
     {
         "name": "Mississippi",
-        "abbreviation": "MS"
+        "abbreviation": "MS",
+        "isSelected": false
     },
     {
         "name": "Missouri",
-        "abbreviation": "MO"
+        "abbreviation": "MO",
+        "isSelected": false
     },
     {
         "name": "Montana",
-        "abbreviation": "MT"
+        "abbreviation": "MT",
+        "isSelected": false
     },
     {
         "name": "Nebraska",
-        "abbreviation": "NE"
+        "abbreviation": "NE",
+        "isSelected": false
     },
     {
         "name": "Nevada",
-        "abbreviation": "NV"
+        "abbreviation": "NV",
+        "isSelected": false
     },
     {
         "name": "New Hampshire",
-        "abbreviation": "NH"
+        "abbreviation": "NH",
+        "isSelected": false
     },
     {
         "name": "New Jersey",
-        "abbreviation": "NJ"
+        "abbreviation": "NJ",
+        "isSelected": false
     },
     {
         "name": "New Mexico",
-        "abbreviation": "NM"
+        "abbreviation": "NM",
+        "isSelected": false
     },
     {
         "name": "New York",
-        "abbreviation": "NY"
+        "abbreviation": "NY",
+        "isSelected": false
     },
     {
         "name": "North Carolina",
-        "abbreviation": "NC"
+        "abbreviation": "NC",
+        "isSelected": false
     },
     {
         "name": "North Dakota",
-        "abbreviation": "ND"
+        "abbreviation": "ND",
+        "isSelected": false
     },
     {
         "name": "Northern Mariana Islands",
-        "abbreviation": "MP"
+        "abbreviation": "MP",
+        "isSelected": false
     },
     {
         "name": "Ohio",
-        "abbreviation": "OH"
+        "abbreviation": "OH",
+        "isSelected": false
     },
     {
         "name": "Oklahoma",
-        "abbreviation": "OK"
+        "abbreviation": "OK",
+        "isSelected": false
     },
     {
         "name": "Oregon",
-        "abbreviation": "OR"
+        "abbreviation": "OR",
+        "isSelected": false
     },
     {
         "name": "Palau",
-        "abbreviation": "PW"
+        "abbreviation": "PW",
+        "isSelected": false
     },
     {
         "name": "Pennsylvania",
-        "abbreviation": "PA"
+        "abbreviation": "PA",
+        "isSelected": false
     },
     {
         "name": "Puerto Rico",
-        "abbreviation": "PR"
+        "abbreviation": "PR",
+        "isSelected": false
     },
     {
         "name": "Rhode Island",
-        "abbreviation": "RI"
+        "abbreviation": "RI",
+        "isSelected": false
     },
     {
         "name": "South Carolina",
-        "abbreviation": "SC"
+        "abbreviation": "SC",
+        "isSelected": false
     },
     {
         "name": "South Dakota",
-        "abbreviation": "SD"
+        "abbreviation": "SD",
+        "isSelected": false
     },
     {
         "name": "Tennessee",
-        "abbreviation": "TN"
+        "abbreviation": "TN",
+        "isSelected": false
     },
     {
         "name": "Texas",
-        "abbreviation": "TX"
+        "abbreviation": "TX",
+        "isSelected": false
     },
     {
         "name": "Utah",
-        "abbreviation": "UT"
+        "abbreviation": "UT",
+        "isSelected": false
     },
     {
         "name": "Vermont",
-        "abbreviation": "VT"
+        "abbreviation": "VT",
+        "isSelected": false
     },
     {
         "name": "Virgin Islands",
-        "abbreviation": "VI"
+        "abbreviation": "VI",
+        "isSelected": false
     },
     {
         "name": "Virginia",
-        "abbreviation": "VA"
+        "abbreviation": "VA",
+        "isSelected": false
     },
     {
         "name": "Washington",
-        "abbreviation": "WA"
+        "abbreviation": "WA",
+        "isSelected": false
     },
     {
         "name": "West Virginia",
-        "abbreviation": "WV"
+        "abbreviation": "WV",
+        "isSelected": false
     },
     {
         "name": "Wisconsin",
-        "abbreviation": "WI"
+        "abbreviation": "WI",
+        "isSelected": false
     },
     {
         "name": "Wyoming",
-        "abbreviation": "WY"
+        "abbreviation": "WY",
+        "isSelected": false
     }
 ]

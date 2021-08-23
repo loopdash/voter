@@ -1,21 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600&display=swap');
+
 .App {
+  font-family: "Fira Sans", arial, sans-serif;
   max-width: 680px;
   margin: 0 auto;
   padding: 1rem;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
+  color: #13161a;
   font-family: inherit;
-  font-weight: 500;
   line-height: 1.2;
   color: inherit;
 }
 
 h1 {
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 900;
+  font-family: "Fira Sans", arial, sans-serif;
+  color: #13161a;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  line-height: 1.385rem;
 }
 
 select {
@@ -25,9 +35,108 @@ select {
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
+  margin-bottom: 1.5rem;
 }
 
 label {
-  font-weight: 600;
+  color: #13161a;
+  font-size: 1.25rem;
+  font-weight: 700;
   display: block;
+  margin-bottom: .875rem;
+}
+
+.form-group {
+  margin-bottom: 1.875rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.975em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+
+/* btn */
+.btn {
+  display: inline-block;
+  font-weight: 800;
+  color: #495057;
+  background-color: #ececec;
+  border-color: #ececec;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .475rem .875rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-right: 0.5rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-check {
+  position: absolute;
+  clip: rect(0,0,0,0);
+  pointer-events: none;
+}
+
+.radio-wrapper input:checked + .btn {
+  color: #fff;
+  background-color: #1a73e8;
+  border-color: #1a73e8;
+}
+
+
+/* results */
+.result-wrapper {
+  position: relative;
+  padding: 1.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+}
+
+
+
+.result-wrapper h2 {
+  font-weight: 800;
+  font-size: 1.875rem;
+  margin-top: 0;
+}
+
+.result-wrapper-green {
+  color: #0c662f;
+  background-color: #d1ecdd;
+  border-color: #267445;
+}
+
+.result-wrapper-red {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.result-wrapper-green a {
+  font-weight: 700;
+  color: #0c662f;
+}
+
+.result-wrapper-red a {
+  font-weight: 700;
+  color: #721c24;
 }

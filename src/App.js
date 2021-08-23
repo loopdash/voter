@@ -5,48 +5,116 @@ import  data from './data.json';
 class App extends React.Component {
   constructor(props) {
     super(props);
+
     this.state = {
       regions: data,
-      selectedRegion: null,
-      questions: null
+      questions: null,
+      result: null,
+      canVote: null,
+      questionsToShow: 1
     };
   }
 
   handleRegionChange = (e) => {
+    let regionCopy = data.slice();
     let selected = e.target.value;
-    let questions = this.state.regions.find(x => x.name === selected).questions
+
+    let regions = regionCopy.map(region => {
+      region.isSelected = region.name === selected;
+      return region;
+    });
     
-    this.setState({ selectedRegion: selected, questions: questions })
+    this.setState({ 
+      regions: regions,
+      questionsToShow: 1,
+      questions:  this.selectedRegion().questions,
+      result: null,
+      canVote: true
+    })
   }
 
+  handleQuestionChange = (e) => {
+    var stateCopy = Object.assign({}, this.state);
+    let questionsCopy = stateCopy.questions.slice();
+    let selected = e.target.value;
+    let selectedQuestion = e.target.name;
+
+    console.log(selected)
+
+    let questions = questionsCopy.map(question => {
+      if (question.value === selectedQuestion) {
+        question.selectedOption = selected;
+      }
+      return question;
+    });
+
+    let selectedQuestionObject = questionsCopy.filter(question => question.value === selectedQuestion)[0].options.filter(option => option.value === selected)[0]
+    let increment = selectedQuestionObject.result ? 0 : 1;
+    let questionsToShow = questions.filter(questions => questions.selectedOption).length + increment;
+    this.setState({ questions: questions, questionsToShow: questionsToShow, result: selectedQuestionObject.result })
+  }
+
+  renderOptions = (question) => (
+    question.options ? 
+      (question.options.map(option => (
+        <span key={option.value}>
+          <input 
+            type="radio" 
+            key={option.value}
+            name={question.value}
+            value={option.value}
+            checked={question.selectedOption == option.value}
+            onChange={(e) => this.handleQuestionChange(e)}
+          />
+          <label className="btn" htmlFor={question.value}>{option.value}</label>
+        </span>
+      )))
+      : null
+  )
+
+  selectedRegion = () => this.state.regions.filter(region => region.isSelected)[0]
 
   render() {
-    const { regions, questions } = this.state;
-
-    return (
-      <div className="App">
-        <h1>Can I vote?</h1>
-        <h2 className="lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</h2>
+    const { regions, questions, result, questionsToShow, canVote} = this.state;
+    
+    let regionField = (
+      <div className="form-group">
         <label>State</label>
-
-        <select name="regions" id="regions" value={this.state.selectedRegion} onChange={(e) => this.handleRegionChange(e)}>
+        <select name="regions" id="regions" onChange={(e) => this.handleRegionChange(e)} className="form-control">
           {regions.map(region => (
             <option key={region.id} value={region.name}>
               {region.name}
             </option>
           ))}
         </select>
+      </div>
+    );
 
+    let questionFields = (questions ? questions.map((question, i) => 
+      (i < questionsToShow) ? (
+        <div className="form-group">
+          <label>{question.value}</label>
+          <p>{question.extra}</p>
+          {this.renderOptions(question)}
+        </div>
+      ) : null
 
-        {questions ? questions.map(question => (
-          <label>{question.label}</label>
-            // {
-            //   question.options.map(option => (
-            //     <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
-            //     <label class="btn btn-secondary" for={option.label}>{option.label}</label>
-            //   ))
-            // }
-        )) : null}
+    ) : null);
+
+    let resultWrapper = (<div className={`result-wrapper ${canVote ? 'result-wrapper-green' : 'result-wrapper-red'}`} role="alert"
+    dangerouslySetInnerHTML={{__html: result}}>
+    </div>)
+
+    return (
+      <div className="App">
+        <h1>Can I vote?</h1>
+        <h2 className="lead">Voting laws are pretty complex. Check if you are eligible to vote in your state today. Just complete the form below.</h2>
+        
+        {regionField}
+        {questionFields}
+
+        {result && resultWrapper}
+        
       </div>
     );
   }
