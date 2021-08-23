@@ -8,54 +8,7 @@
         "name": "Alaska",
         "abbreviation": "AK",
         "isSelected": false,
-        "questions": [
-            {
-                "value": "Do you currently have a felony?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": null
-                    },
-                    {
-                        "value": "No",
-                        "result": "That is not cool"
-                    }
-                ]
-            },
-            {
-                "value": "Have you been convicted of one or more of the following felonies?",
-                "extra": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-                "selectedOption":  null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": null
-                    },
-                    {
-                        "value": "No",
-                        "result": "That is not cool"
-                    }
-                ]
-            },
-            {
-                "value": "Were you convicted in an Arizona state court, a federal court, a state court in a different state than Arizona, or in multiple settings?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Okay we get it"
-                    },
-                    {
-                        "value": "No",
-                        "result": "That is not cool"
-                    }
-                ]
-                
-            }
-        ]
+        "questions": []
     },
     {
         "name": "American Samoa",
@@ -129,41 +82,30 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": null
+                        "result": null,
+                        "canVote": null
                     },
                     {
                         "value": "No",
-                        "result": "<h2>You can vote.</h2> In Hawaii, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/hawaii' target='_blank'>Register to vote with our friends at Vote.org.</a>"
+                        "result": "In Hawaii, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/hawaii' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
                     }
                 ]
             },
             {
-                "value": "Have you completed your sentence for a felony, including probation or parole?",
+                "value": "Are you currently incarcerated for a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "<h2>You can vote.</h2>In Hawaii, people with felony convictions can vote after they are released from incarceration. That’s true even if you are on probation or parole. <br /><br /><a href='https://www.vote.org/register-to-vote/hawaii' target='_blank'>Register to vote with our friends at Vote.org.</a>"
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole. ",
+                        "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": null
-                    }
-                ]
-            },
-            {
-                "value": "Are you on probation or parole for a felony or currently incarcerated for a misdemeanor?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "You can vote."
-                    },
-                    {
-                        "value": "No",
-                        "result": "You not eligible to vote."
+                        "result": "In Hawaii, people with felony convictions can vote after they are released from incarceration. That’s true even if you are on probation or parole. <br /><br /><a href='https://www.vote.org/register-to-vote/hawaii' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
                     }
                 ]
             }

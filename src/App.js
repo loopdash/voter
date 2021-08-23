@@ -28,8 +28,7 @@ class App extends React.Component {
       regions: regions,
       questionsToShow: 1,
       questions:  this.selectedRegion().questions,
-      result: null,
-      canVote: true
+      result: null
     })
   }
 
@@ -39,7 +38,6 @@ class App extends React.Component {
     let selected = e.target.value;
     let selectedQuestion = e.target.name;
 
-    console.log(selected)
 
     let questions = questionsCopy.map(question => {
       if (question.value === selectedQuestion) {
@@ -51,15 +49,21 @@ class App extends React.Component {
     let selectedQuestionObject = questionsCopy.filter(question => question.value === selectedQuestion)[0].options.filter(option => option.value === selected)[0]
     let increment = selectedQuestionObject.result ? 0 : 1;
     let questionsToShow = questions.filter(questions => questions.selectedOption).length + increment;
-    this.setState({ questions: questions, questionsToShow: questionsToShow, result: selectedQuestionObject.result })
+
+    this.setState({ questions: questions,
+      questionsToShow: questionsToShow,
+      result: selectedQuestionObject.result, 
+      canVote: selectedQuestionObject.canVote
+    })
   }
 
   renderOptions = (question) => (
     question.options ? 
       (question.options.map(option => (
-        <span key={option.value}>
+        <span className="radio-wrapper">
           <input 
             type="radio" 
+            className="btn-check"
             key={option.value}
             name={question.value}
             value={option.value}
@@ -101,8 +105,9 @@ class App extends React.Component {
 
     ) : null);
 
-    let resultWrapper = (<div className={`result-wrapper ${canVote ? 'result-wrapper-green' : 'result-wrapper-red'}`} role="alert"
-    dangerouslySetInnerHTML={{__html: result}}>
+    let resultWrapper = (<div className={`result-wrapper ${canVote ? 'result-wrapper-green' : 'result-wrapper-red'}`} role="alert">
+      <h2>{canVote ? 'You can vote!' : 'You can\'t vote.'}</h2>
+      <p dangerouslySetInnerHTML={{__html: result}}></p>
     </div>)
 
     return (

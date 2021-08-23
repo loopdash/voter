@@ -61,11 +61,10 @@ label {
   color: #495057;
   background-color: #fff;
   background-clip: padding-box;
-  border: 1px solid #ced4da;
+  border: 2px solid #ced4da;
   border-radius: 0;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
-
 
 
 /* btn */
@@ -92,8 +91,8 @@ label {
 
 .btn-check {
   position: absolute;
-  clip: rect(0,0,0,0);
-  pointer-events: none;
+  /* clip: rect(0,0,0,0); */
+  /* pointer-events: none; */
 }
 
 .radio-wrapper input:checked + .btn {
@@ -110,7 +109,6 @@ label {
   margin-bottom: 1rem;
   border: 1px solid transparent;
 }
-
 
 
 .result-wrapper h2 {
