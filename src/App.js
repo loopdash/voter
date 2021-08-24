@@ -80,7 +80,9 @@ class App extends React.Component {
 
   render() {
     const { regions, questions, result, questionsToShow, canVote} = this.state;
-    
+    let resultHeading = (typeof canVote != "boolean") ? 'You might be able to vote...' : canVote ? 'You can vote!' : 'You can\'t vote.';
+    let resultClass = (typeof canVote != "boolean") ? 'result-wrapper-blue' : canVote ? 'result-wrapper-green' : 'result-wrapper-red';
+
     let regionField = (
       <div className="form-group">
         <label>State</label>
@@ -105,9 +107,13 @@ class App extends React.Component {
 
     ) : null);
 
-    let resultWrapper = (<div className={`result-wrapper ${canVote ? 'result-wrapper-green' : 'result-wrapper-red'}`} role="alert">
-      <h2>{canVote ? 'You can vote!' : 'You can\'t vote.'}</h2>
-      <p dangerouslySetInnerHTML={{__html: result}}></p>
+    let resultWrapper = (<div className={`result-wrapper ${resultClass}`} role="alert">
+      <div className="result-text">
+        <span>
+          <h2>{resultHeading}</h2>
+          <p dangerouslySetInnerHTML={{__html: result}}></p>
+        </span>
+      </div>
     </div>)
 
     return (
