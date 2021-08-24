@@ -67,7 +67,7 @@ class App extends React.Component {
             key={option.value}
             name={question.value}
             value={option.value}
-            checked={question.selectedOption == option.value}
+            checked={question.selectedOption === option.value}
             onChange={(e) => this.handleQuestionChange(e)}
           />
           <label className="btn" htmlFor={question.value}>{option.value}</label>
