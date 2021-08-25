@@ -115,6 +115,13 @@ label {
   cursor: pointer;
   margin: -16px -14px 0 0;
 }
+
+.btn-check:hover + .btn {
+  color:  #fff;
+  background: var(--blue-3);
+}
+
+
 .radio-wrapper {
     position: relative;
 }
