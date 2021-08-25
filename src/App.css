@@ -109,8 +109,17 @@ label {
   position: absolute;
   /* clip: rect(0,0,0,0); */
   /* pointer-events: none; */
+    opacity:0;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    cursor: pointer;
+    
 }
-
+.radio-wrapper {
+    position: relative;
+}
 .radio-wrapper input:checked + .btn {
   color: #fff;
   background-color: var(--blue-2);
