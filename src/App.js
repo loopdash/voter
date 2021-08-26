@@ -103,11 +103,6 @@ class App extends React.Component {
     let resultHeading = (typeof canVote != "boolean") ? 'You might be able to vote...' : canVote ? 'You can vote!' : 'You can\'t vote.';
     let resultClass = (typeof canVote != "boolean") ? 'result-wrapper-blue' : canVote ? 'result-wrapper-green' : 'result-wrapper-red';
 
-    const options = [
-      { value: 'chocolate', label: 'Chocolate' },
-      { value: 'strawberry', label: 'Strawberry' },
-      { value: 'vanilla', label: 'Vanilla' }
-    ]
     let regionField = (
       <div className="form-group">
         <label>State</label>
