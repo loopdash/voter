@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Select from 'react-select';
 import  data from './data.json';
 
 class App extends React.Component {
@@ -17,12 +18,13 @@ class App extends React.Component {
 
   handleRegionChange = (e) => {
     let regionCopy = data.slice();
-    let selected = e.target.value;
+    let selected = e.value;
 
     let regions = regionCopy.map(region => {
-      region.isSelected = region.name === selected;
+      region.isSelected = region.value === selected;
       return region;
     });
+    debugger;
     
     this.setState({ 
       regions: regions,
@@ -36,25 +38,43 @@ class App extends React.Component {
     var stateCopy = Object.assign({}, this.state);
     let questionsCopy = stateCopy.questions.slice();
     let selected = e.target.value;
-    let selectedQuestion = e.target.name;
-
+    let questionValue = e.target.name;
+    let clickedQuestion = questionsCopy.filter(question => question.value === questionValue)[0]
+    let prevQuestionChanged = clickedQuestion.id < this.state.questionsToShow;
+    
+    if (prevQuestionChanged) {
+      this.clearProceedingQuestions(clickedQuestion.id);
+    }
 
     let questions = questionsCopy.map(question => {
-      if (question.value === selectedQuestion) {
+      if (question.value === questionValue) {
         question.selectedOption = selected;
       }
       return question;
     });
 
-    let selectedQuestionObject = questionsCopy.filter(question => question.value === selectedQuestion)[0].options.filter(option => option.value === selected)[0]
-    let increment = selectedQuestionObject.result ? 0 : 1;
+    let selectedOption = clickedQuestion.options.filter(option => option.value === selected)[0]
+    let increment = selectedOption.result ? 0 : 1;
     let questionsToShow = questions.filter(questions => questions.selectedOption).length + increment;
 
     this.setState({ questions: questions,
       questionsToShow: questionsToShow,
-      result: selectedQuestionObject.result, 
-      canVote: selectedQuestionObject.canVote
+      result: selectedOption.result, 
+      canVote: selectedOption.canVote
     })
+  }
+
+  clearProceedingQuestions = (id) => {
+    var stateCopy = Object.assign({}, this.state);
+    let questionsCopy = stateCopy.questions.slice();
+
+    questionsCopy.map(question => {
+      if (id < question.id) {
+        question.selectedOption = null;
+      }
+      return question
+    })
+    this.setState({ questions: questionsCopy })
   }
 
   renderOptions = (question) => (
@@ -83,27 +103,25 @@ class App extends React.Component {
     let resultHeading = (typeof canVote != "boolean") ? 'You might be able to vote...' : canVote ? 'You can vote!' : 'You can\'t vote.';
     let resultClass = (typeof canVote != "boolean") ? 'result-wrapper-blue' : canVote ? 'result-wrapper-green' : 'result-wrapper-red';
 
+    const options = [
+      { value: 'chocolate', label: 'Chocolate' },
+      { value: 'strawberry', label: 'Strawberry' },
+      { value: 'vanilla', label: 'Vanilla' }
+    ]
     let regionField = (
       <div className="form-group">
         <label>State</label>
-        <select name="regions" id="regions" onChange={(e) => this.handleRegionChange(e)} className="form-control">
-          {regions.map(region => (
-            <option key={region.id} value={region.name}>
-              {region.name}
-            </option>
-          ))}
-        </select>
+        <Select options={regions} name="regions" id="regions" onChange={(e) => this.handleRegionChange(e)} />
       </div>
     );
 
     let questionFields = (questions ? questions.map((question, i) => 
-      (i < questionsToShow) ? (
-        <div className="form-group">
+      
+        <div className={(i < questionsToShow) ? 'form-group' : 'form-group hide'}>
           <label>{question.value}</label>
           <p>{question.extra}</p>
           {this.renderOptions(question)}
         </div>
-      ) : null
 
     ) : null);
 

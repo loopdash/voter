@@ -1,81 +1,82 @@
 [
     {
-        "name": "Alabama",
-        "abbreviation": "AL",
+        "label": "Alabama",
+        "value": "Alabama",
         "isSelected": false
     },
     {
-        "name": "Alaska",
-        "abbreviation": "AK",
+        "label": "Alaska",
+        "value": "Alaska",
         "isSelected": false,
         "questions": []
     },
     {
-        "name": "American Samoa",
-        "abbreviation": "AS",
+        "label": "American Samoa",
+        "value": "American Samoa",
         "isSelected": false
     },
     {
-        "name": "Arizona",
-        "abbreviation": "AZ",
+        "label": "Arizona",
+        "value": "Arizona",
         "isSelected": false
     },
     {
-        "name": "Arkansas",
-        "abbreviation": "AR",
+        "label": "Arkansas",
+        "value": "Arkansas",
         "isSelected": false
     },
     {
-        "name": "California",
-        "abbreviation": "CA",
+        "label": "California",
+        "value": "California",
         "isSelected": false
     },
     {
-        "name": "Colorado",
-        "abbreviation": "CO",
+        "label": "Colorado",
+        "value": "Colorado",
         "isSelected": false
     },
     {
-        "name": "Connecticut",
-        "abbreviation": "CT",
+        "label": "Connecticut",
+        "value": "Connecticut",
         "isSelected": false
     },
     {
-        "name": "Delaware",
-        "abbreviation": "DE",
+        "label": "Delaware",
+        "value": "Delaware",
         "isSelected": false
     },
     {
-        "name": "District Of Columbia",
-        "abbreviation": "DC",
+        "label": "District Of Columbia",
+        "value": "District Of Columbia",
         "isSelected": false
     },
     {
-        "name": "Federated States Of Micronesia",
-        "abbreviation": "FM",
+        "label": "Federated States Of Micronesia",
+        "value": "Federated States Of Micronesia",
         "isSelected": false
     },
     {
-        "name": "Florida",
-        "abbreviation": "FL",
+        "label": "Florida",
+        "value": "Florida",
         "isSelected": false
     },
     {
-        "name": "Georgia",
-        "abbreviation": "GA",
+        "label": "Georgia",
+        "value": "Georgia",
         "isSelected": false
     },
     {
-        "name": "Guam",
-        "abbreviation": "GU",
+        "label": "Guam",
+        "value": "Guam",
         "isSelected": false
     },
     {
-        "name": "Hawaii",
-        "abbreviation": "HI",
+        "label": "Hawaii",
+        "value": "Hawaii",
         "isSelected": false,
         "questions": [
             {
+                "id": 1,
                 "value": "Do you currently have a felony?",
                 "extra": null,
                 "selectedOption": null,
@@ -93,18 +94,24 @@
                 ]
             },
             {
-                "value": "Are you currently incarcerated for a felony?",
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole. ",
+                        "value": "Yes, a misdemeanor",
+                        "result": "In Hawaii, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Hawaii, people with felony convictions can vote after they are released from incarceration. That’s true even if you are on probation or parole. <br /><br /><a href='https://www.vote.org/register-to-vote/hawaii' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "result": "In Hawaii, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/hawaii' target='_blank'>Register to vote with our friends at Vote.org.</a>",
                         "canVote": true
                     }
                 ]
@@ -112,223 +119,843 @@
         ]
     },
     {
-        "name": "Idaho",
-        "abbreviation": "ID",
+        "label": "Idaho",
+        "value": "Idaho",
         "isSelected": false
     },
     {
-        "name": "Illinois",
-        "abbreviation": "IL",
+        "label": "Illinois",
+        "value": "Illinois",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Illinois, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/illinois' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In Illinois, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Illinois, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/illinois' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Indiana",
+        "value": "Indiana",
         "isSelected": false
     },
     {
-        "name": "Indiana",
-        "abbreviation": "IN",
+        "label": "Iowa",
+        "value": "Iowa",
         "isSelected": false
     },
     {
-        "name": "Iowa",
-        "abbreviation": "IA",
+        "label": "Kansas",
+        "value": "Kansas",
         "isSelected": false
     },
     {
-        "name": "Kansas",
-        "abbreviation": "KS",
+        "label": "Kentucky",
+        "value": "Kentucky",
         "isSelected": false
     },
     {
-        "name": "Kentucky",
-        "abbreviation": "KY",
+        "label": "Louisiana",
+        "value": "Louisiana",
         "isSelected": false
     },
     {
-        "name": "Louisiana",
-        "abbreviation": "LA",
+        "label": "Maine",
+        "value": "Maine",
         "isSelected": false
     },
     {
-        "name": "Maine",
-        "abbreviation": "ME",
+        "label": "Marshall Islands",
+        "value": "Marshall Islands",
         "isSelected": false
     },
     {
-        "name": "Marshall Islands",
-        "abbreviation": "MH",
+        "label": "Maryland",
+        "value": "Maryland",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Maryland, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/maryland' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Have you been convicted of buying or selling votes?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are not eligible to vote. Buying and selling votes is a disqualifying conviction in Maryland absent a pardon.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In Maryland, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Maryland, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/maryland' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Massachusetts",
+        "value": "Massachusetts",
         "isSelected": false
     },
     {
-        "name": "Maryland",
-        "abbreviation": "MD",
+        "label": "Michigan",
+        "value": "Michigan",
         "isSelected": false
     },
     {
-        "name": "Massachusetts",
-        "abbreviation": "MA",
+        "label": "Minnesota",
+        "value": "Minnesota",
         "isSelected": false
     },
     {
-        "name": "Michigan",
-        "abbreviation": "MI",
+        "label": "Mississippi",
+        "value": "Mississippi",
         "isSelected": false
     },
     {
-        "name": "Minnesota",
-        "abbreviation": "MN",
+        "label": "Missouri",
+        "value": "Missouri",
         "isSelected": false
     },
     {
-        "name": "Mississippi",
-        "abbreviation": "MS",
+        "label": "Montana",
+        "value": "Montana",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In North Dakota, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/north-dakota' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In North Dakota, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In North Dakota, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/hawaii' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Nebraska",
+        "value": "Nebraska",
         "isSelected": false
     },
     {
-        "name": "Missouri",
-        "abbreviation": "MO",
+        "label": "Nevada",
+        "value": "Nevada",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Nevada, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/nevada' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In Nevada, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Nevada, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/nevada' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "New Hampshire",
+        "value": "New Hampshire",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In New Hampshire, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/new-hampshire' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In New Hampshire, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In New Hampshire, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/new-hampshire' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "New Jersey",
+        "value": "New Jersey",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In New Jersey, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/new-jersey' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In New Jersey, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In New Jersey, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/new-jersey' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "New Mexico",
+        "value": "New Mexico",
         "isSelected": false
     },
     {
-        "name": "Montana",
-        "abbreviation": "MT",
+        "label": "New York",
+        "value": "New York",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In New York, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/new-york' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In New York, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In New York, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/new-york' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "North Carolina",
+        "value": "North Carolina",
         "isSelected": false
     },
     {
-        "name": "Nebraska",
-        "abbreviation": "NE",
+        "label": "North Dakota",
+        "value": "North Dakota",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Montana, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/montana' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In Montana, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Montana, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/montana' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Northern Mariana Islands",
+        "value": "Northern Mariana Islands",
         "isSelected": false
     },
     {
-        "name": "Nevada",
-        "abbreviation": "NV",
+        "label": "Ohio",
+        "value": "Ohio",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Ohio, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/ohio' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In Ohio, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Ohio, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/ohio' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Oklahoma",
+        "value": "Oklahoma",
         "isSelected": false
     },
     {
-        "name": "New Hampshire",
-        "abbreviation": "NH",
+        "label": "Oregon",
+        "value": "Oregon",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Oregon, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/oregon' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In Oregon, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Oregon, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/oregon' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Palau",
+        "value": "Palau",
         "isSelected": false
     },
     {
-        "name": "New Jersey",
-        "abbreviation": "NJ",
+        "label": "Pennsylvania",
+        "value": "Pennsylvania",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Pennsylvania, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/pennsylvania' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In Pennsylvania, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Pennsylvania, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/pennsylvania' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Puerto Rico",
+        "value": "Puerto Rico",
         "isSelected": false
     },
     {
-        "name": "New Mexico",
-        "abbreviation": "NM",
+        "label": "Rhode Island",
+        "value": "Rhode Island",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Rhode Island, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/rhode-island' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In Rhode Island, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Rhode Island, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/rhode-island' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "South Carolina",
+        "value": "South Carolina",
         "isSelected": false
     },
     {
-        "name": "New York",
-        "abbreviation": "NY",
+        "label": "South Dakota",
+        "value": "South Dakota",
         "isSelected": false
     },
     {
-        "name": "North Carolina",
-        "abbreviation": "NC",
+        "label": "Tennessee",
+        "value": "Tennessee",
         "isSelected": false
     },
     {
-        "name": "North Dakota",
-        "abbreviation": "ND",
+        "label": "Texas",
+        "value": "Texas",
         "isSelected": false
     },
     {
-        "name": "Northern Mariana Islands",
-        "abbreviation": "MP",
+        "label": "Utah",
+        "value": "Utah",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Utah, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/utah' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In Utah, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Utah, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/utah' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Vermont",
+        "value": "Vermont",
         "isSelected": false
     },
     {
-        "name": "Ohio",
-        "abbreviation": "OH",
+        "label": "Virgin Islands",
+        "value": "Virgin Islands",
         "isSelected": false
     },
     {
-        "name": "Oklahoma",
-        "abbreviation": "OK",
+        "label": "Virginia",
+        "value": "Virginia",
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Do you currently have a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Virginia, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/virginia' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, a misdemeanor",
+                        "result": "In Virginia, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "canVote": true
+                    },
+                    {
+                        "value": "Yes, a felony",
+                        "result": "Unfortunately, you are not eligible to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Virginia, no one is disenfranchised for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://www.vote.org/register-to-vote/virginia' target='_blank'>Register to vote with our friends at Vote.org.</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "label": "Washington",
+        "value": "Washington",
         "isSelected": false
     },
     {
-        "name": "Oregon",
-        "abbreviation": "OR",
+        "label": "West Virginia",
+        "value": "West Virginia",
         "isSelected": false
     },
     {
-        "name": "Palau",
-        "abbreviation": "PW",
+        "label": "Wisconsin",
+        "value": "Wisconsin",
         "isSelected": false
     },
     {
-        "name": "Pennsylvania",
-        "abbreviation": "PA",
-        "isSelected": false
-    },
-    {
-        "name": "Puerto Rico",
-        "abbreviation": "PR",
-        "isSelected": false
-    },
-    {
-        "name": "Rhode Island",
-        "abbreviation": "RI",
-        "isSelected": false
-    },
-    {
-        "name": "South Carolina",
-        "abbreviation": "SC",
-        "isSelected": false
-    },
-    {
-        "name": "South Dakota",
-        "abbreviation": "SD",
-        "isSelected": false
-    },
-    {
-        "name": "Tennessee",
-        "abbreviation": "TN",
-        "isSelected": false
-    },
-    {
-        "name": "Texas",
-        "abbreviation": "TX",
-        "isSelected": false
-    },
-    {
-        "name": "Utah",
-        "abbreviation": "UT",
-        "isSelected": false
-    },
-    {
-        "name": "Vermont",
-        "abbreviation": "VT",
-        "isSelected": false
-    },
-    {
-        "name": "Virgin Islands",
-        "abbreviation": "VI",
-        "isSelected": false
-    },
-    {
-        "name": "Virginia",
-        "abbreviation": "VA",
-        "isSelected": false
-    },
-    {
-        "name": "Washington",
-        "abbreviation": "WA",
-        "isSelected": false
-    },
-    {
-        "name": "West Virginia",
-        "abbreviation": "WV",
-        "isSelected": false
-    },
-    {
-        "name": "Wisconsin",
-        "abbreviation": "WI",
-        "isSelected": false
-    },
-    {
-        "name": "Wyoming",
-        "abbreviation": "WY",
+        "label": "Wyoming",
+        "value": "Wyoming",
         "isSelected": false
     }
 ]
