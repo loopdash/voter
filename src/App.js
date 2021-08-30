@@ -25,11 +25,15 @@ class App extends React.Component {
       return region;
     });
 
+    let selectedRegion = this.selectedRegion();
+    let noQuestions = selectedRegion.questions === null;
+
     this.setState({ 
       regions: regions,
       questionsToShow: 1,
-      questions:  this.selectedRegion().questions,
-      result: null
+      questions: selectedRegion.questions,
+      result: noQuestions ? selectedRegion.result : null,
+      canVote: noQuestions ? true : null
     })
   }
 
@@ -103,6 +107,7 @@ class App extends React.Component {
     let resultHeading = noAnswer ?
       'You might be able to vote...' : canVote ?
       'You can vote!' : 'You can\'t vote.';
+
     let resultClass = noAnswer ?
       'result-wrapper-blue' : canVote ?
       'result-wrapper-green' : 'result-wrapper-red';
@@ -114,6 +119,7 @@ class App extends React.Component {
         'min-height': '46px',
       }),
     };
+
     let regionField = (
       <div className="form-group">
         <label>Where do you live?</label>
@@ -142,7 +148,6 @@ class App extends React.Component {
           {question.extra ? `<p>${question.extra}</p>` : null }
           {this.renderOptions(question)}
         </div>
-
     ) : null);
 
     let resultWrapper = (<div className={`result-wrapper ${resultClass}`} role="alert">
