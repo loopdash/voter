@@ -19,6 +19,7 @@ class App extends React.Component {
   handleRegionChange = (e) => {
     let regionCopy = data.slice();
     let selected = e.value;
+    let prevSelectedRegion = regionCopy.filter(region => region.isSelected)[0]
 
     let regions = regionCopy.map(region => {
       region.isSelected = region.value === selected;
@@ -27,6 +28,9 @@ class App extends React.Component {
 
     let selectedRegion = this.selectedRegion();
     let noQuestions = selectedRegion.questions === null;
+    let regionHasntChanged = prevSelectedRegion && selected === prevSelectedRegion.label;
+
+    if (regionHasntChanged) return;
 
     this.setState({ 
       regions: regions,
