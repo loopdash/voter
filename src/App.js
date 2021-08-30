@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Select from 'react-select';
-import  data from './data.json';
+import data from './data.json';
 
 class App extends React.Component {
   constructor(props) {
@@ -116,7 +116,7 @@ class App extends React.Component {
     };
     let regionField = (
       <div className="form-group">
-        <label>State</label>
+        <label>Where do you live?</label>
         <Select
           styles={selectStyles}
           options={regions}
