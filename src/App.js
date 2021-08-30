@@ -7,12 +7,16 @@ class App extends React.Component {
   constructor(props) {
     super(props);
 
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const params = Object.fromEntries(urlSearchParams.entries());
+
     this.state = {
       regions: data,
       questions: null,
       result: null,
       canVote: null,
-      questionsToShow: 1
+      questionsToShow: 1,
+      src: params.src
     };
   }
 
@@ -120,7 +124,7 @@ class App extends React.Component {
       control: (base, state) => ({
         ...base,
         height: '46px',
-        'min-height': '46px',
+        minHeight: '46px',
       }),
     };
 
@@ -129,6 +133,7 @@ class App extends React.Component {
         <label>Where do you live?</label>
         <Select
           styles={selectStyles}
+          classNamePrefix='reactSelect'
           options={regions}
           name="regions"
           id="regions"
@@ -137,9 +142,7 @@ class App extends React.Component {
             ...theme,
             borderRadius: 0,
             colors: {
-              ...theme.colors,
-              primary25: '#f3f6ff',
-              primary: '#3466ff',
+              ...theme.colors
             },
           })}
         />
@@ -149,7 +152,7 @@ class App extends React.Component {
     let questionFields = (questions ? questions.map((question, i) =>
         <div className={(i < questionsToShow) ? 'form-group' : 'form-group hide'}>
           <label>{question.value}</label>
-          {question.extra ? `<p>${question.extra}</p>` : null }
+          <p>{question.extra ? `${question.extra}` : null }</p>
           {this.renderOptions(question)}
         </div>
     ) : null);
@@ -164,7 +167,7 @@ class App extends React.Component {
     </div>)
 
     return (
-      <div className="App">
+      <div className={`App ${this.state.src}`}>
         <h1>Can I vote?</h1>
         <h2 className="lead">Voting laws are pretty complex. Check if you are eligible to vote in your state today. Just complete the form below.</h2>
         {regionField}

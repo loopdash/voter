@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600&display=swap');
 
 :root {
+  --brand-3: #3466ff;
+  --brand-2: #5079f5;
+  --brand-1: #f3f6ff;
+  
   --blue-3: #3466ff;
   --blue-2: #5079f5;
   --blue-1: #f3f6ff;
@@ -12,18 +17,37 @@
   --red-3: #d14443;
   --red-2: #de7979;
   --red-1: #fcf3f4;
+
+  --black: #13161a;
+  --font: Fira Sans, arial, sans-serif;
 }
 
 .App {
-  font-family: "Fira Sans", arial, sans-serif;
   max-width: 680px;
   margin: 0 auto;
   padding: 1rem;
+  font-family: var(--font);
+}
+
+.App.hhc {
+  --font: "Montserrat", sans-serif;
+  --black: #000000;
+  --brand-3: #F04600;
+  --brand-2: #F04600;
+  --brand-1: #f38b5f;
+}
+
+.App.rmv {
+  --font: "Raleway", sans-serif;
+  --black: #0D0D0D;
+  --brand-3: #072556;
+  --brand-2: #0054A5;
+  --brand-1: #5aa3e7;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   margin-bottom: .5rem;
-  color: #13161a;
+  color: var(--black);
   font-family: inherit;
   line-height: 1.2;
   color: inherit;
@@ -32,8 +56,7 @@
 h1 {
   font-size: 2.5rem;
   font-weight: 900;
-  font-family: "Fira Sans", arial, sans-serif;
-  color: #13161a;
+  color: var(--black);
 }
 
 p {
@@ -53,7 +76,7 @@ select {
 }
 
 label {
-  color: #13161a;
+  color: var(--black);
   font-size: 1.25rem;
   font-weight: 700;
   display: block;
@@ -89,6 +112,25 @@ label {
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
+/* reactSelect */
+.form-group .reactSelect__menu {
+  margin: 0.125rem auto;
+}
+
+.form-group .reactSelect__option {
+}
+
+.form-group .reactSelect__option .is-focused {
+  background-color: red;
+}
+
+.form-group .reactSelect__group {
+  padding: 0;
+}
+
+.form-group .reactSelect__menu-portal {
+  border: 1px solid darkblue;
+}
 
 /* btn */
 .btn {
@@ -128,7 +170,7 @@ label.btn {
 
 .btn-check:hover + .btn {
   color:  #fff;
-  background: var(--blue-3);
+  background-color: var(--brand-2);
 }
 
 .form-group .radio-wrapper:first-of-type {
@@ -142,8 +184,8 @@ label.btn {
 
 .radio-wrapper input:checked + .btn {
   color: #fff;
-  background-color: var(--blue-2);
-  border-color: var(--blue-2);
+  background-color: var(--brand-2);
+  border-color: var(--brand-2);
 }
 
 
