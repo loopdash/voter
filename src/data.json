@@ -1241,31 +1241,13 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": null,
-                        "canVote": false
+                        "result": "In Tennessee, felons convicted between 1973 and 1981 are <strong>eligible</strong> to vote. If you were not convicted in that time period you are <strong>not eligible</strong> to vote.",
+                        "canVote": null
                     },
                     {
                         "value": "No",
                         "result": "In Tennessee, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://www.vote.org/register-to-vote/tennessee' target='_blank'>Register to vote with our friends at Vote.org.</a>",
                         "canVote": true
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Were you convicted between 1973 and 1981?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://www.vote.org/register-to-vote/tennessee' target='_blank'>Register to vote with our friends at Vote.org.</a>",
-                        "canVote": true
-                    },
-                    {
-                        "value": "No",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Individuals who have been convicted of felonies of moral turputide are eligible to vote only upon completion of their sentence, including probation and parole.<br /><br />Common felonies of moral turpitude include: murder, manslaughter, assault, sexual assault, sexual abuse of a minor, robery, arson, burglary, theft, forgery, endangering the welfare of a minor, riot, criminal mischef, misconduct involving a controlled substance, and distribution or possession of child pornography.<br /><br /><strong>NOTE: </strong>This is not a complete list of felonies of moral turpitude. If you are unsure if your conviction qualifies as a felony of moral turpitude, call or have a friend or family member call 1-866-OUR-VOTE for assistance.",
-                        "canVote": false
                     }
                 ]
             }
