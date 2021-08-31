@@ -231,6 +231,10 @@ label.btn {
   width: 95%;
 }
 
+.result-wrapper span .row {
+  display: flex;
+  justify-content:space-between;
+}
 .result-wrapper-green {
   color: var(--green-3);
   background-color: var(--green-1);
