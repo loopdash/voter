@@ -150,11 +150,11 @@ class App extends React.Component {
     );
 
     let questionFields = (questions ? questions.map((question, i) =>
-        <div className={(i < questionsToShow) ? 'form-group' : 'form-group hide'}>
-          <label>{question.value}</label>
-          <p>{question.extra ? `${question.extra}` : null }</p>
-          {this.renderOptions(question)}
-        </div>
+      <div className={(i < questionsToShow) ? 'form-group' : 'form-group hide'}>
+        <label>{question.value}</label>
+        <p>{question.extra ? `${question.extra}` : null }</p>
+        {this.renderOptions(question)}
+      </div>
     ) : null);
 
     let resultWrapper = (<div className={`result-wrapper ${resultClass}`} role="alert">
@@ -162,7 +162,6 @@ class App extends React.Component {
         <span>
           <span className="row">
             <h2>{resultHeading}</h2>
-            <span className="icon">X</span>
           </span>
           <p dangerouslySetInnerHTML={{__html: result}}></p>
         </span>

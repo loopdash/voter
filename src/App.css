@@ -118,6 +118,7 @@ label {
 .form-group .reactSelect__control {
   border-radius: var(--border-radius);
   font-weight: 600;
+  box-shadow: none;
 }
 
 .form-group .reactSelect__menu {
@@ -126,6 +127,7 @@ label {
 
 .form-group .reactSelect__option {
   font-weight: 600;
+  cursor: pointer;
 }
 
 .form-group .reactSelect__option--is-selected {
@@ -134,7 +136,7 @@ label {
 
 .form-group .reactSelect__option--is-focused {
   color: rgba(255, 255, 255, 0.8);
-  background-color: var(--brand-1);
+  background-color: var(--brand-2);
 }
 
 .form-group .reactSelect__group {
@@ -188,11 +190,12 @@ label.btn {
 }
 
 .form-group .radio-wrapper:first-of-type {
-  margin: 0 0.25rem 0.5rem 0;
+  margin: 0 0.5rem 0.5rem 0;
 }
+
 .radio-wrapper {
   position: relative;
-  margin: 0 0.25rem 0.5rem 0;
+  margin: 0 0.5rem 0.5rem 0;
   display: inline-block;
 }
 
@@ -202,7 +205,6 @@ label.btn {
   border-color: var(--brand-2);
 }
 
-
 /* results */
 .result-wrapper {
   transition: opacity 0.15s;
@@ -211,6 +213,10 @@ label.btn {
   margin-bottom: 1rem;
   border: 1px solid transparent;
   border-radius: var(--border-radius);
+}
+
+.result-wrapper span {
+  width: 100%;
 }
 
 .result-text {
@@ -223,18 +229,15 @@ label.btn {
   font-weight: 800;
   font-size: 1.875rem;
   margin-top: 0;
-  display: flex;
-  align-items: center;
-}
-
-.result-wrapper span {
-  width: 95%;
+  width: 100%;
 }
 
 .result-wrapper span .row {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
+  align-items: center;
 }
+
 .result-wrapper-green {
   color: var(--green-3);
   background-color: var(--green-1);
@@ -254,7 +257,7 @@ label.btn {
 }
 
 .result-wrapper-green h2:before {
-  display: block;
+  display: inline-flex;
   content: ' ';
   background: url('./check-circle.svg');
   background-repeat: no-repeat;
@@ -264,7 +267,7 @@ label.btn {
 }
 
 .result-wrapper-red h2:before {
-  display: block;
+  display: inline-flex;
   content: ' ';
   background: url('./x-circle.svg');
   background-repeat: no-repeat;
@@ -274,7 +277,7 @@ label.btn {
 }
 
 .result-wrapper-blue h2:before {
-  display: block;
+  display: inline-flex;
   content: ' ';
   background: url('./alert-circle.svg');
   background-repeat: no-repeat;
@@ -300,7 +303,7 @@ label.btn {
 
 @media only screen and (max-width: 600px) {
   .result-wrapper {
-    padding: 1rem .5rem;
+    padding: 1rem;
   }
   .result-wrapper h2:before {
     width: 8%;
