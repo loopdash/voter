@@ -256,6 +256,36 @@ label.btn {
   border-color: var(--blue-2);
 }
 
+.result-wrapper-green .btn {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: var(--green-3);
+  border-color: var(--green-2);
+}
+.result-wrapper-green .btn:hover {
+  background-color: var(--green-2);
+}
+
+.result-wrapper-red .btn {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: var(--red-3);
+  border-color: var(--red-2);
+}
+.result-wrapper-red .btn:hover {
+  background-color: var(--red-2);
+}
+
+.result-wrapper-blue .btn {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: var(--blue-3);
+  border-color: var(--blue-2);
+}
+.result-wrapper-blue .btn:hover {
+  background-color: var(--blue-2);
+}
+
 .result-wrapper-green h2:before {
   display: inline-flex;
   content: ' ';
