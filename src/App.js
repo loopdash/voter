@@ -160,7 +160,10 @@ class App extends React.Component {
     let resultWrapper = (<div className={`result-wrapper ${resultClass}`} role="alert">
       <div className="result-text">
         <span>
-          <h2>{resultHeading}</h2>
+          <span className="row">
+            <h2>{resultHeading}</h2>
+            <span className="icon">X</span>
+          </span>
           <p dangerouslySetInnerHTML={{__html: result}}></p>
         </span>
       </div>
