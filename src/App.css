@@ -20,6 +20,7 @@
 
   --black: #13161a;
   --font: Fira Sans, arial, sans-serif;
+  --border-radius: 0;
 }
 
 .App {
@@ -43,6 +44,7 @@
   --brand-3: #072556;
   --brand-2: #0054A5;
   --brand-1: #5aa3e7;
+  --border-radius: 5px;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -108,20 +110,31 @@ label {
   background-color: #fff;
   background-clip: padding-box;
   border: 2px solid #ced4da;
-  border-radius: 0;
+  border-radius: var(--border-radius);
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 /* reactSelect */
+.form-group .reactSelect__control {
+  border-radius: var(--border-radius);
+  font-weight: 600;
+}
+
 .form-group .reactSelect__menu {
   margin: 0.125rem auto;
 }
 
 .form-group .reactSelect__option {
+  font-weight: 600;
 }
 
-.form-group .reactSelect__option .is-focused {
-  background-color: red;
+.form-group .reactSelect__option--is-selected {
+  background-color: var(--brand-3);
+}
+
+.form-group .reactSelect__option--is-focused {
+  color: rgba(255, 255, 255, 0.8);
+  background-color: var(--brand-1);
 }
 
 .form-group .reactSelect__group {
@@ -139,6 +152,7 @@ label {
   color: #495057;
   background-color: #ececec;
   border-color: #ececec;
+  border-radius: var(--border-radius);
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
