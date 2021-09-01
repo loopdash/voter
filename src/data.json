@@ -232,7 +232,45 @@
     {
         "label": "Georgia",
         "value": "Georgia",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Georgia, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Georgia, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Guam",
@@ -434,12 +472,88 @@
     {
         "label": "Iowa",
         "value": "Iowa",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Iowa, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Iowa, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Kansas",
         "value": "Kansas",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Kansas, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Kansas, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Kentucky",
@@ -449,7 +563,45 @@
     {
         "label": "Louisiana",
         "value": "Louisiana",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Louisiana, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently?",
+                "extra": "<ul><li>Incarcerated for a felony</li><li>On probation and have been incarcerated in the last 5 years</li><li>On parole and have been incarcerated in the last 5 years</li><ul>",
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Louisiana, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Maine",
@@ -532,7 +684,27 @@
     {
         "label": "Massachusetts",
         "value": "Massachusetts",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Are you currently incarcerated for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Massachusetts, you are still <strong>eligible</strong> to vote as long as you are not incarcerated for a felony.",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Michigan",
@@ -585,7 +757,45 @@
     {
         "label": "Minnesota",
         "value": "Minnesota",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Minnesota, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Minnesota, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Mississippi",
@@ -797,7 +1007,45 @@
     {
         "label": "New Mexico",
         "value": "New Mexico",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In New Mexico, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In New Mexico, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "New York",
@@ -1042,7 +1290,45 @@
     {
         "label": "Oklahoma",
         "value": "Oklahoma",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Oklahoma, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Oklahoma, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Oregon",
@@ -1203,7 +1489,45 @@
     {
         "label": "South Carolina",
         "value": "South Carolina",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In South Carolina, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In South Carolina, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "South Dakota",
@@ -1275,7 +1599,45 @@
     {
         "label": "Texas",
         "value": "Texas",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Texas, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Texas, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Utah",
@@ -1431,17 +1793,132 @@
     {
         "label": "Washington",
         "value": "Washington",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Washington, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated or on parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Washington, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+
+        ]
     },
     {
         "label": "West Virginia",
         "value": "West Virginia",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In West Virginia, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In West Virginia, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Wisconsin",
         "value": "Wisconsin",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Wisconsin, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Wisconsin, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Wyoming",

@@ -67,6 +67,10 @@ p {
   line-height: 1.385rem;
 }
 
+ul {
+  margin-left: -20px;
+}
+
 select {
   margin-bottom: 1rem;
 }
