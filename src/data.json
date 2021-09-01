@@ -20,7 +20,45 @@
     {
         "label": "Arizona",
         "value": "Arizona",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Arizona, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Arizona, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Arkansas",
@@ -68,7 +106,46 @@
     {
         "label": "California",
         "value": "California",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In California, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you...",
+                
+                "extra": "<ul><li>Currently incarcerated serving a felony prison sentence or are incarcerated as a result of a parole violation?</li><li>Currently on parole for a felony?</li></ul>",
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In California, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Colorado",
@@ -169,7 +246,63 @@
     {
         "label": "Delaware",
         "value": "Delaware",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Delaware, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Have you been convicted of a felony of moral turpitude?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Delaware, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "District Of Columbia",
@@ -227,7 +360,68 @@
     {
         "label": "Florida",
         "value": "Florida",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Florida, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Have you completed your sentence for a murder or sexual offense?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes, I have",
+                        "result": "To become eligible to register to vote, you must have your rights restored through clemency.<br /><br /> For assistance, contact the Restore Your Vote hotline by calling (202) 857-0314 or (888) 306-8683 (toll-free) or emailing: <br/><br/><a href='mailto:RestoreYourVote@campaignlegal.org.'>RestoreYourVote@campaignlegal.org.</a>",
+                        "canVote": null
+                    },
+                    {
+                        "value": "No, I haven't",
+                        "result": "In Florida, you are <strong>not eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
+                        "canVote": false
+                    },
+                    {
+                        "value": "This doesn't apply to me",
+                        "result": "In Florida, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Georgia",
@@ -558,7 +752,45 @@
     {
         "label": "Kentucky",
         "value": "Kentucky",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Kentucky, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently...",
+                "extra": "<ul><li>Incarcerated for a felony?</li><li>On parole for a felony?</li><li>On probation for a felony?</li><li>Incarcerated for a misdemeanor and <strong>not</strong> awaiting trial?</li><ul>",
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Kentucky, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Louisiana",
@@ -585,8 +817,8 @@
             },
             {
                 "id": 2,
-                "value": "Are you currently?",
-                "extra": "<ul><li>Incarcerated for a felony</li><li>On probation and have been incarcerated in the last 5 years</li><li>On parole and have been incarcerated in the last 5 years</li><ul>",
+                "value": "Are you currently...",
+                "extra": "<ul><li>Incarcerated for a felony?</li><li>On probation and have been incarcerated in the last 5 years?</li><li>On parole and have been incarcerated in the last 5 years?</li><ul>",
                 "selectedOption": null,
                 "options": [
                     {
@@ -800,12 +1032,88 @@
     {
         "label": "Mississippi",
         "value": "Mississippi",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Mississippi, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently on probation or parole for one of the 23 barred crimes?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote can only be granted through a bill passed by both houses of the legislature or through the Governor.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Mississippi, you are still <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Missouri",
         "value": "Missouri",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Minnesota, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are any of the following true?",
+                "extra": "<ul><li>You are currently incarcerated for a felony or misdemeanor</li><li>You are currently on probation for a felony</li><li>You are currently on parole for a felony</li><li>You have been convicted of a felony or misdemeanor related to voting</li><ul>",
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Missouri, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Montana",
@@ -858,7 +1166,63 @@
     {
         "label": "Nebraska",
         "value": "Nebraska",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Nebraska, no one is disenfranchised for misdemeanors or any convictions other than felonies.<br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Has it been more than 2 years since you have completed your sentence for a felony, including probation or parole?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "In Nebraska, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You can register to vote 2 years after you have completed your parole/probation sentence.",
+                        "canVote": false
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Nevada",
@@ -1532,7 +1896,45 @@
     {
         "label": "South Dakota",
         "value": "South Dakota",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In South Dakota, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated or on parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In South Dakota, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Tennessee",
