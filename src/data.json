@@ -8,7 +8,44 @@
         "label": "Alaska",
         "value": "Alaska",
         "isSelected": false,
-        "questions": []
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Alaska, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony of moral turpitude?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Individuals who have been convicted of felonies of moral turputide are eligible to vote only upon completion of their sentence, including probation and parole.<br /><br />Common felonies of moral turpitude include: <ul><li>Murder</li><li>Manslaughter</li><li>Assault</li><li>Sexual assault</li><li>Sexual abuse of a minor</li><li>Robbery</li><li>Arson</li><li>Burglary</li><li>Theft</li><li>Forgery</li><li>Endangering the welfare of a minor</li><li>Riot</li><li>Criminal mischef</li><li>Misconduct involving a controlled substance</li><li>Distribution or possession of child pornography</li></ul><strong>NOTE: </strong>This is not a complete list of felonies of moral turpitude. If you are unsure if your conviction qualifies as a felony of moral turpitude, call or have a friend or family member call 1-866-OUR-VOTE for assistance.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Alaska, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "American Samoa",
@@ -35,7 +72,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Arizona, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Arizona, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -53,8 +90,26 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Arizona, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Have you had multiple felonies and have not been pardoned?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "You might be able to vote. Please apply for restoration to the superior court in the county in which you were convicted then register to vote if your rights are restored. <br /><br />If you are uncertain about the next step, call 1-866-OUR-VOTE for more information.",
+                        "canVote": null
                     }
                 ]
             }
@@ -78,25 +133,25 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Arkansas, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Arkansas, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
             },
             {
                 "id": 2,
-                "value": "Are you currently incarcerated, on probation, or parole for a felony of moral turpitude?",
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Individuals who have been convicted of felonies of moral turputide are eligible to vote only upon completion of their sentence, including probation and parole.<br /><br />Common felonies of moral turpitude include: murder, manslaughter, assault, sexual assault, sexual abuse of a minor, robery, arson, burglary, theft, forgery, endangering the welfare of a minor, riot, criminal mischef, misconduct involving a controlled substance, and distribution or possession of child pornography.<br /><br /><strong>NOTE: </strong>This is not a complete list of felonies of moral turpitude. If you are unsure if your conviction qualifies as a felony of moral turpitude, call or have a friend or family member call 1-866-OUR-VOTE for assistance.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Arkansas, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Arkansas, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -121,7 +176,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In California, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In California, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -140,7 +195,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In California, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In California, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -165,7 +220,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Colorado, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Colorado, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -178,17 +233,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Colorado, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Colorado, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Colorado, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Colorado, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -213,7 +268,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Connecticut, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Connecticut, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -226,17 +281,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Connecticut, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Connecticut, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Connecticut, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Connecticut, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -261,7 +316,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Delaware, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Delaware, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -297,7 +352,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Delaware, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
+                        "result": "In Delaware, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -322,7 +377,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In District Of Columbia, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In District Of Columbia, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -335,27 +390,22 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In District Of Columbia, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In District Of Columbia, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In District Of Columbia, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In District Of Columbia, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
             }
         ]
-    },
-    {
-        "label": "Federated States Of Micronesia",
-        "value": "Federated States Of Micronesia",
-        "isSelected": false
     },
     {
         "label": "Florida",
@@ -375,7 +425,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Florida, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Florida, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -405,12 +455,12 @@
                 "selectedOption": null,
                 "options": [
                     {
-                        "value": "Yes, I have",
+                        "value": "Yes",
                         "result": "To become eligible to register to vote, you must have your rights restored through clemency.<br /><br /> For assistance, contact the Restore Your Vote hotline by calling (202) 857-0314 or (888) 306-8683 (toll-free) or emailing: <br/><br/><a href='mailto:RestoreYourVote@campaignlegal.org.'>RestoreYourVote@campaignlegal.org.</a>",
                         "canVote": null
                     },
                     {
-                        "value": "No, I haven't",
+                        "value": "No",
                         "result": "In Florida, you are <strong>not eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
                         "canVote": false
                     },
@@ -441,7 +491,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Georgia, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Georgia, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -459,7 +509,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Georgia, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Georgia, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -484,7 +534,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Guam, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Guam, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -497,17 +547,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Guam, you are still <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Guam, you are <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -532,7 +582,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Hawaii, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Hawaii, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -545,17 +595,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Hawaii, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Hawaii, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Hawaii, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Hawaii, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -565,7 +615,45 @@
     {
         "label": "Idaho",
         "value": "Idaho",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Idaho, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Idaho, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Illinois",
@@ -585,7 +673,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Illinois, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Illinois, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -598,17 +686,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Illinois, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Illinois, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Illinois, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Illinois, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -633,7 +721,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Indiana, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Indiana, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -646,17 +734,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Indiana, you are still <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Indiana, you are <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -681,7 +769,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Iowa, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Iowa, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -699,7 +787,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Iowa, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Iowa, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -724,7 +812,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Kansas, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Kansas, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -742,7 +830,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Kansas, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Kansas, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -767,7 +855,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Kentucky, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Kentucky, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -810,7 +898,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Louisiana, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Louisiana, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -828,7 +916,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Louisiana, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Louisiana, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -841,11 +929,6 @@
         "isSelected": false,
         "questions": null,
         "result": "In Maine, there are no restrictions on eligibility to vote based on criminal convictions. <br/><br/>For more information about voting in Maine, visit the <a href='https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html' target='_blank'>Secretary of State's website</a>."
-    },
-    {
-        "label": "Marshall Islands",
-        "value": "Marshall Islands",
-        "isSelected": false
     },
     {
         "label": "Maryland",
@@ -865,7 +948,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Maryland, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Maryland, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -896,17 +979,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Maryland, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Maryland, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Maryland, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Maryland, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -926,12 +1009,12 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Massachusetts, you are still <strong>eligible</strong> to vote as long as you are not incarcerated for a felony.",
+                        "result": "In Massachusetts, you are <strong>eligible</strong> to vote as long as you are not incarcerated for a felony.",
                         "canVote": true
                     }
                 ]
@@ -956,7 +1039,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Michigan, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Michigan, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -969,17 +1052,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Michigan, you are still <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Michigan, you are <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1004,7 +1087,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Minnesota, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Minnesota, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1022,7 +1105,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Minnesota, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Minnesota, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1047,7 +1130,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Mississippi, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Mississippi, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1065,7 +1148,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Mississippi, you are still <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Mississippi, you are <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1090,7 +1173,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Minnesota, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Minnesota, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1108,7 +1191,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Missouri, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Missouri, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1133,7 +1216,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Montana, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Montana, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1146,17 +1229,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Montana, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Montana, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Montana, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Montana, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1212,7 +1295,7 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "In Nebraska, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Nebraska, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     },
                     {
@@ -1242,7 +1325,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Nevada, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Nevada, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1255,17 +1338,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Nevada, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Nevada, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Nevada, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Nevada, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1290,7 +1373,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In New Hampshire, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In New Hampshire, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1303,17 +1386,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In New Hampshire, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In New Hampshire, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In New Hampshire, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In New Hampshire, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1338,7 +1421,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In New Jersey, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In New Jersey, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1351,17 +1434,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In New Jersey, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In New Jersey, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In New Jersey, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In New Jersey, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1386,7 +1469,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In New Mexico, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In New Mexico, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1404,7 +1487,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In New Mexico, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In New Mexico, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1429,7 +1512,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In New York, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In New York, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1442,17 +1525,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In New York, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In New York, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In New York, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In New York, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1477,7 +1560,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In North Carolina, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In North Carolina, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1490,17 +1573,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In North Carolina, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In North Carolina, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In North Carolina, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In North Carolina, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1525,7 +1608,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In North Dakota, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In North Dakota, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1538,17 +1621,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In North Dakota, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In North Dakota, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In North Dakota, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In North Dakota, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1573,7 +1656,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Northern Mariana Islands, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Northern Mariana Islands, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1586,17 +1669,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Northern Mariana Islands, you are still <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Northern Mariana Islands, you are <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1621,7 +1704,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Ohio, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Ohio, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1634,17 +1717,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Ohio, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Ohio, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Ohio, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Ohio, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1669,7 +1752,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Oklahoma, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Oklahoma, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1687,7 +1770,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Oklahoma, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Oklahoma, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1712,7 +1795,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Oregon, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Oregon, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1725,17 +1808,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Oregon, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Oregon, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Oregon, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Oregon, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1765,7 +1848,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Pennsylvania, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Pennsylvania, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1778,17 +1861,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Pennsylvania, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Pennsylvania, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Pennsylvania, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Pennsylvania, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1820,7 +1903,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Rhode Island, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Rhode Island, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1833,17 +1916,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Rhode Island, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Rhode Island, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Rhode Island, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Rhode Island, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1868,7 +1951,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In South Carolina, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In South Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1886,7 +1969,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In South Carolina, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In South Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1911,7 +1994,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In South Dakota, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In South Dakota, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1929,7 +2012,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In South Dakota, you are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In South Dakota, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1954,7 +2037,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Tennessee, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Tennessee, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1972,7 +2055,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Tennessee, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Tennessee, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1990,7 +2073,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
+                        "result": "You are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2016,7 +2099,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Texas, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Texas, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2034,7 +2117,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Texas, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Texas, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2059,7 +2142,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Utah, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Utah, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2072,17 +2155,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Utah, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Utah, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Utah, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Utah, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2114,7 +2197,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Virgin Islands, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Virgin Islands, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2127,17 +2210,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Virgin Islands, you are still <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Virgin Islands, you are <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2162,7 +2245,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Virginia, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Virginia, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2175,17 +2258,17 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Virginia, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
+                        "result": "In Virginia, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex.",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are still on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Virginia, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Virginia, no one is disenfranchised for misdemeanors or any convictions other than felonies. If you are incarcerated but have not been convicted of a felony, you are <strong>eligible</strong> to vote. That’s true even if you have been charged with a felony. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2210,7 +2293,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Washington, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Washington, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2228,7 +2311,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Washington, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Washington, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2254,7 +2337,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In West Virginia, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In West Virginia, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2272,7 +2355,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In West Virginia, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In West Virginia, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2297,7 +2380,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Wisconsin, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Wisconsin, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2315,7 +2398,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Wisconsin, no one is disenfranchised for misdemeanors or any convictions other than felonies. You are still <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Wisconsin, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2325,6 +2408,90 @@
     {
         "label": "Wyoming",
         "value": "Wyoming",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Wyoming, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Are you currently incarcerated for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Have you completed your sentence for more than one non-violent felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "This doesn't apply to me",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "value": "Have you completed your sentence for a violent felony, including probation or parole?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "In Wyoming, people with violent felony convictions are permanently disenfranchised unless they appeal to the governor after a waiting period (5 years for restoration, 10 years for a pardon).<br/><br/>Please apply to your Governor for voting rights restoration.",
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "This doesn't apply to me",
+                        "result": "In Wyoming, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     }
 ]
