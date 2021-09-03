@@ -335,6 +335,26 @@ label.btn {
   color: var(--red-3);
 }
 
+.getting-started-progress-bar {
+  width: 100%;
+  background-color: #eaf0f6;
+  height: 15px;
+  border-radius: 3px;
+  display: inline-block;
+  height: 10px;
+  margin-right: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.getting-started-progress-bar > span {
+  background-image: linear-gradient(89deg, var(--brand-3),var(--brand-2));
+  border-radius: 3px;
+  display: block;
+  height: 10px;
+  transition: width .6s ease;
+}
+
 @media only screen and (max-width: 600px) {
   .result-wrapper {
     padding: 1rem;

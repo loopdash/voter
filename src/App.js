@@ -16,7 +16,8 @@ class App extends React.Component {
       result: null,
       canVote: null,
       questionsToShow: 1,
-      src: params.src
+      src: params.src,
+      percentComplete: 0
     };
   }
 
@@ -36,12 +37,15 @@ class App extends React.Component {
 
     if (regionHasntChanged) return;
 
+    let percentComplete = 1 / (selectedRegion.questions.length + 1) * 100;
+
     this.setState({ 
       regions: regions,
       questionsToShow: 1,
       questions: selectedRegion.questions,
       result: noQuestions ? selectedRegion.result : null,
-      canVote: noQuestions ? true : null
+      canVote: noQuestions ? true : null,
+      percentComplete: percentComplete
     })
   }
 
@@ -68,10 +72,13 @@ class App extends React.Component {
     let increment = selectedOption.result ? 0 : 1;
     let questionsToShow = questions.filter(questions => questions.selectedOption).length + increment;
 
+    let percentComplete = ((questionsCopy.filter(q => q.selectedOption !== null).length  + 1) / (questions.length + 1)) * 100;
+
     this.setState({ questions: questions,
       questionsToShow: questionsToShow,
-      result: selectedOption.result, 
-      canVote: selectedOption.canVote
+      result: selectedOption.result,
+      canVote: selectedOption.canVote,
+      percentComplete: percentComplete
     })
   }
 
@@ -149,6 +156,12 @@ class App extends React.Component {
       </div>
     );
 
+    let progressBar = (
+      <div class="getting-started-progress-bar">
+        <span id="getting-started-progress-bar--progress-hook" style={{"width": this.state.percentComplete + "%" }}></span>
+      </div>
+    )
+
     let questionFields = (questions ? questions.map((question, i) =>
       <div className={(i < questionsToShow) ? 'form-group' : 'form-group hide'}>
         <label>{question.value}</label>
@@ -174,6 +187,7 @@ class App extends React.Component {
         <h2 className="lead">Check if you are eligible to vote in your state today. Just complete the form below.
             {" "}<a href="https://loopdash.notion.site/Hip-Hop-Caucus-Voting-Questionnaire-States-3e1b43d1bb164b30b7bc7e4993467fb1" target="_lblank">We're still adding states data. View progress here.</a>
             </h2>
+        {progressBar}
         {regionField}
         {questionFields}
         {result && resultWrapper}
