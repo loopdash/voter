@@ -171,9 +171,7 @@ class App extends React.Component {
     return (
       <div className={`App ${this.state.src}`}>
         <h1>Can I vote?</h1>
-        <h2 className="lead">Check if you are eligible to vote in your state today. Just complete the form below.
-            {" "}<a href="https://loopdash.notion.site/Hip-Hop-Caucus-Voting-Questionnaire-States-3e1b43d1bb164b30b7bc7e4993467fb1" target="_lblank">We're still adding states data. View progress here.</a>
-            </h2>
+        <h2 className="lead">Check if you are eligible to vote in your state today. Just complete the form below.</h2>
         {regionField}
         {questionFields}
         {result && resultWrapper}
