@@ -2,7 +2,27 @@
     {
         "label": "Alabama",
         "value": "Alabama",
-        "isSelected": false
+        "isSelected": false,
+        "questions": [
+            {
+                "id": 1,
+                "value": "Have you ever been charged or convicted of a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Alabama, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            }
+        ]
     },
     {
         "label": "Alaska",
