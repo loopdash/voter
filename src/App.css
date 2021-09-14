@@ -29,6 +29,12 @@
   margin: 0 auto;
   padding: 1rem;
   font-family: var(--font);
+  height: 100%;
+}
+
+html,
+body {
+  height: 100%;
 }
 
 .App.hhc {

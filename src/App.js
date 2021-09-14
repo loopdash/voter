@@ -170,8 +170,6 @@ class App extends React.Component {
 
     return (
       <div className={`App ${this.state.src}`}>
-        <h1>Can I vote?</h1>
-        <h2 className="lead">Check if you are eligible to vote in your state today. Just complete the form below.</h2>
         {regionField}
         {questionFields}
         {result && resultWrapper}
