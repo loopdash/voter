@@ -72,7 +72,7 @@
         "value": "American Samoa",
         "isSelected": false,
         "questions": null,
-        "result": "In American Samoa, there are no restrictions on eligibility to vote based on criminal convictions. <br/><br/>For more information about voting in Maine, visit the <a href='https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html' target='_blank'>Secretary of State's website</a>."
+        "result": "In American Samoa, there are no restrictions on eligibility to vote based on criminal convictions. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>"
     },
     {
         "label": "Arizona",
@@ -948,7 +948,7 @@
         "value": "Maine",
         "isSelected": false,
         "questions": null,
-        "result": "In Maine, there are no restrictions on eligibility to vote based on criminal convictions. <br/><br/>For more information about voting in Maine, visit the <a href='https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html' target='_blank'>Secretary of State's website</a>."
+        "result": "In Maine, there are no restrictions on eligibility to vote based on criminal convictions. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>"
     },
     {
         "label": "Maryland",
@@ -1193,7 +1193,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Minnesota, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Missouri, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1903,7 +1903,7 @@
         "value": "Puerto Rico",
         "isSelected": false,
         "questions": null,
-        "result": "In Puerto Rico, there are no restrictions on eligibility to vote based on criminal convictions. <br/><br/>For more information about voting in Maine, visit the <a href='https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html' target='_blank'>Secretary of State's website</a>."
+        "result": "In Puerto Rico, there are no restrictions on eligibility to vote based on criminal convictions. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>"
     },
     {
         "label": "Rhode Island",
@@ -2197,7 +2197,7 @@
         "value": "Vermont",
         "isSelected": false,
         "questions": null,
-        "result": "In Vermont, there are no restrictions on eligibility to vote based on criminal convictions. <br/><br/>For more information about voting in Maine, visit the <a href='https://www.maine.gov/sos/cec/elec/voter-info/voterguide.html' target='_blank'>Secretary of State's website</a>."
+        "result": "In Vermont, there are no restrictions on eligibility to vote based on criminal convictions. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>"
     },
     {
         "label": "Virgin Islands",
