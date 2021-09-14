@@ -12,7 +12,7 @@ Adds a voting questionnaire to some websites.
 ```
 
 ## Or use Javascript to embed the app
-*Add `<div id="voter-app"></div>` anywhere in your application and include the scripts below.*
+**Add `<div id="voter-app"></div>` anywhere in your application and include the scripts below.**
 ```
 <script src="/path/to/files/voter-app.js"></script>
 <script src="/path/to/files/voter-bundle.js"></script>
