@@ -146,6 +146,7 @@ class App extends React.Component {
             },
           })}
         />
+        <p class="small">Data provided by Hip Hop Caucus' Respect My Vote! campaign.</p>
       </div>
     );
 

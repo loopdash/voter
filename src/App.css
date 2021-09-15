@@ -90,6 +90,15 @@ p {
   line-height: 1.385rem;
 }
 
+.small {
+  font-size: .75rem;
+  font-weight: 400;
+  color: var(--black);
+  margin-top: 0.3875rem;
+  float: right;
+  line-height: 1em;
+}
+
 ul {
   margin-left: -20px;
 }
@@ -109,7 +118,7 @@ label {
   font-size: 1.25rem;
   font-weight: 700;
   display: block;
-  margin-bottom: .6875rem;
+  margin-bottom: .2875rem;
 }
 
 .form-group {
