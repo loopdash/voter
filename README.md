@@ -6,5 +6,4 @@ Adds a voting questionnaire to some websites.
 
 
 Drop this code on the site to make it work: 
-<iframe src="https://vote.hiphopcaucus.org" frameborder="0" style="overflow:hidden;height:150%;width:150%" height="150%" width="150%" title="Can I Vote?">
-</iframe>
+<iframe src="https://vote.hiphopcaucus.org/?src=rmv" height="900px" type="text/javascript"></iframe>
