@@ -1808,8 +1808,26 @@
                     },
                     {
                         "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Have you satisfied the original duration of your sentence, even if you have been released early?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
                         "result": "In Oklahoma, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You must satisfy the oriignal duration of your sentence.",
+                        "canVote": false
                     }
                 ]
             }
