@@ -1150,7 +1150,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Mississippi, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Mississippi, you are <strong>eligible</strong> to vote. <br /><br />Only individuals convicted of one of 23 specific felony crimes lose the right to vote (arson; armed robbery; bigamy; bribery; embezzlement; extortion; felony bad check; felony shoplifting; forgery; larceny; murder; obtaining money or goods under false pretense; perjury; rape; receiving stolen property; robbery; theft; timber larceny; unlawful taking of motor vehicle; statutory rape; carjacking; and larceny under lease or rental agreement.) <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1168,7 +1168,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Mississippi, you are <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Mississippi, you are <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br />Only individuals convicted of one of 23 specific felony crimes lose the right to vote (arson; armed robbery; bigamy; bribery; embezzlement; extortion; felony bad check; felony shoplifting; forgery; larceny; murder; obtaining money or goods under false pretense; perjury; rape; receiving stolen property; robbery; theft; timber larceny; unlawful taking of motor vehicle; statutory rape; carjacking; and larceny under lease or rental agreement.) <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1731,6 +1731,24 @@
             },
             {
                 "id": 2,
+                "value": "Have you been convicted twice of an election infraction?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "In Ohio, you are <strong>not eligible</strong> and <strong>permanently disenfranchised</strong> from voting.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
                 "value": "Are you currently incarcerated for a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
