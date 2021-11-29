@@ -2128,12 +2128,29 @@
                     },
                     {
                         "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "value": "Have you committed any of these 21 crimes?",
+                "extra": "<ul><li>Abusing a female child</li><li>Arson and felonious burning</li><li>Bigamy</li><li>Bribery</li><li>Burglary</li><li>Felonious breaking into a business house</li><li>outhouse other than a dwelling house</li><li>Felonious breaking and entering a dwelling house</li><li>Larceny</li><li>Horse stealing</li><li>Robbery</li><li>Stealing bills of exchange or other valuable papers</li><li>Receiving stolen property</li><li>Counterfeiting</li><li>Forgery</li><li>Destroying a will</li><li>Incest</li><li>Rape</li><li>Sodomy</li><li>Buggery</li><li>Perjury</li><li>Subornation of perjury?</li></ul>",
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Individuals who have been convicted of felonies of moral turputide are eligible to vote only upon completion of their sentence, including probation and parole. The phrase “moral turpitude” describes an offense or crime that is vile or an insult to morality. Such a crime typically involves fraud, dishonesty, or anything that goes against the norms of society. <br /><br />Common felonies of moral turpitude include: murder, manslaughter, assault, sexual assault, sexual abuse of a minor, robery, arson, burglary, theft, forgery, endangering the welfare of a minor, riot, criminal mischef, misconduct involving a controlled substance, and distribution or possession of child pornography.<br /><br /><strong>NOTE: </strong>This is not a complete list of felonies of moral turpitude. If you are unsure if your conviction qualifies as a felony of moral turpitude, call or have a friend or family member call 1-866-OUR-VOTE for assistance.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
                         "result": "You are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
             }
-
         ]
     },
     {
