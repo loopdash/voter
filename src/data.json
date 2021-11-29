@@ -1610,7 +1610,7 @@
             },
             {
                 "id": 3,
-                "value": "Are you on probation or parole with your appeal more than 10 days away?",
+                "value": "Are you on probation or parole?",
                 "selectedOption": null,
                 "options": [
                     {
