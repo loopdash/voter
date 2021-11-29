@@ -1593,12 +1593,29 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In North Carolina, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
+                        "result": null,
+                        "canVote": null
                     },
                     {
                         "value": "Yes, a felony",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Are you on probation or parole with your appeal more than 10 days away?",
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
                         "canVote": false
                     },
                     {
