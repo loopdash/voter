@@ -19,7 +19,7 @@ class About extends React.Component {
           Ultrices tortor nullam tristique augue dolor varius! Libero aliquet curae; dolor. Himenaeos posuere elit nec aptent metus cras mi ultricies at elit arcu? Consectetur lorem suspendisse ornare vel sit nulla massa dapibus in, eget sagittis suscipit. Id magna vestibulum mi? Malesuada donec semper hendrerit. Curae; ullamcorper proin facilisi. Condimentum leo tortor cras tortor nisi sem suscipit duis? Ante suscipit, viverra commodo nulla semper consectetur eros. Sit at nullam amet, dis convallis condimentum? Viverra hac aliquet morbi in a dui cubilia cum auctor volutpat.
         </p>
 
-        <img src="https://images.unsplash.com/photo-1540908390241-82158ab62887?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80" />
+        <img alt="voting" src="https://images.unsplash.com/photo-1540908390241-82158ab62887?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1769&q=80" />
         <h3>Volutpat ut pretium</h3>
         <p>
           Purus fusce aptent placerat odio penatibus mus. Vel malesuada sociis diam molestie nullam lobortis. Convallis, tortor a urna? Aliquet litora ante consequat? Enim imperdiet est faucibus quisque metus vehicula at mauris. Hendrerit tempor vehicula enim conubia sociis. Magnis felis condimentum ligula rhoncus, commodo lobortis. Tempor nascetur suscipit proin enim. Imperdiet turpis ut morbi consequat. Integer, phasellus himenaeos quis egestas nisl orci montes.
