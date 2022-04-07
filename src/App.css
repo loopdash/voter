@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
   --brand-3: #3466ff;
@@ -26,8 +24,12 @@
 
 .App {
   margin: 0 auto;
-  font-family: var(--font);
+  padding: 2em;
   height: 100%;
+  max-width: 768px;
+}
+a {
+  color: var(--brand-2);
 }
 
 html,
@@ -36,7 +38,6 @@ body {
 }
 
 .App.hhc {
-  --font: "Montserrat", sans-serif;
   --black: #000000;
   --brand-3: #F04600;
   --brand-2: #F04600;
@@ -44,7 +45,6 @@ body {
 }
 
 .App.rmv {
-  --font: "Raleway", sans-serif;
   --black: #0D0D0D;
   --brand-3: #072556;
   --brand-2: #0054A5;
@@ -53,7 +53,6 @@ body {
 }
 
 .App.usvf {
-  --font: "Helvetica Neue", Helvetica, Arial, sans-serif;
   --black: #333333;
   --brand-3: #01214a;
   --brand-2: #045392;
@@ -62,26 +61,11 @@ body {
 }
 
 .App.rtv {
-  --font: "Work Sans", Helvetica,Arial,Lucida,sans-serif;
   --black: #000000;
   --brand-3: #000000;
   --brand-2: #000000;
   --brand-1: #000000;
   --border-radius: 0px;
-}
-
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
-  color: var(--black);
-  font-family: inherit;
-  line-height: 1.2;
-  color: inherit;
-}
-
-h1 {
-  font-size: 2.5rem;
-  font-weight: 900;
-  color: var(--black);
 }
 
 p {
@@ -90,35 +74,35 @@ p {
   line-height: 1.385rem;
 }
 
-.small {
-  font-size: .75rem;
-  font-weight: 400;
-  color: var(--black);
-  margin-top: 0.3875rem;
-  float: right;
-  line-height: 1em;
-}
-
-ul {
-  margin-left: -20px;
-}
-
-select {
-  margin-bottom: 1rem;
-}
-
-.lead {
-  font-size: 1.25rem;
-  font-weight: 400;
-  margin-bottom: 1.5rem;
-}
-
 label {
   color: var(--black);
   font-size: 1.25rem;
   font-weight: 700;
   display: block;
   margin-bottom: .2875rem;
+}
+
+.float-right {
+  float: right;
+}
+
+.small {
+  font-size: .75rem;
+  font-weight: 400;
+  color: var(--black);
+  margin-top: 0.3875rem;
+  line-height: 1em;
+}
+
+/* ul {
+  margin-left: -20px;
+} */
+
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 1.5rem;
 }
 
 .form-group {
@@ -241,6 +225,12 @@ label.btn {
   border-color: var(--brand-2);
 }
 
+
+.About img {
+  border-radius: 10px;
+  margin: 2em 0 0;
+}
+
 /* results */
 .result-wrapper {
   transition: opacity 0.15s;
@@ -274,20 +264,29 @@ label.btn {
   align-items: center;
 }
 
-.result-wrapper-green {
+.result-wrapper-green * {
   color: var(--green-3);
+}
+.result-wrapper-green {
+  
   background-color: var(--green-1);
   border-color: var(--green-2);
 }
 
-.result-wrapper-red {
+.result-wrapper-red * {
   color: var(--red-3);
+}
+.result-wrapper-red {
+  
   background-color: var(--red-1);
   border-color: var(--red-2);
 }
 
-.result-wrapper-blue {
+.result-wrapper-blue * {
   color: var(--blue-3);
+}
+.result-wrapper-blue {
+  
   background-color: var(--blue-1);
   border-color: var(--blue-2);
 }
