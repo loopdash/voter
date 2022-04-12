@@ -173,7 +173,7 @@ class Home extends React.Component {
 
     return (
       <div className={`Home ${this.state.src}`}>
-        <p className="small"><Link to="/about">About this project</Link></p>
+        <p><Link to="/about">About this project</Link></p>
         {regionField}
         {questionFields}
         {result && resultWrapper}

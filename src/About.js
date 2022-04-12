@@ -6,7 +6,7 @@ class About extends React.Component {
   render() {
     return (
       <div className={`About`}>
-        <p className="small"><Link to="/">Back to questionnaire</Link></p>
+        <p><Link to="/">Back to questionnaire</Link></p>
         <h1>Duo Reges: constructio interrete.</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vide, quantum, inquam, fallare, Torquate. Teneo, inquit, finem illi videri nihil dolere. Quantum Aristoxeni ingenium consumptum videmus in musicis? Et nemo nimium beatus est; Hic ambiguo ludimur. At iam decimum annum in spelunca iacet. </p>
         <p>Haec para/doca illi, nos admirabilia dicamus. Sed nimis multa. Itaque contra est, ac dicitis; </p>
