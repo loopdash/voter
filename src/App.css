@@ -24,10 +24,14 @@
 
 .App {
   margin: 0 auto;
-  padding: 2em;
   height: 100%;
-  max-width: 768px;
 }
+
+.wrapper {
+  max-width: 768px;
+  padding: 2em;
+}
+
 a {
   color: var(--brand-2);
 }

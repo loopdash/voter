@@ -9,8 +9,13 @@ const typography = new Typography(theme);
 typography.injectStyles()
 
 function App() {
+  let appClass = window == window.parent ?
+  'wrapper' :
+   null;
+
   return (
-    <div className="App">
+    <div className={`App ${appClass}`}>
+      <p>classsss:{appClass}</p>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
