@@ -191,27 +191,8 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "No",
                         "result": "In California, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "value": "Are you...",
-                
-                "extra": "<ul><li>Currently incarcerated serving a felony prison sentence or are incarcerated as a result of a parole violation?</li><li>Currently on parole for a felony?</li></ul>",
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
                     },
                     {
                         "value": "No",
