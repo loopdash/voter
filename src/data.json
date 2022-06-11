@@ -12,8 +12,8 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": null,
-                        "canVote": null
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
                     },
                     {
                         "value": "No",
