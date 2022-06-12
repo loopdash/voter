@@ -1296,13 +1296,31 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "In Nebraska, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
+                        "result": null,
+                        "canVote": null
                     },
                     {
                         "value": "No",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You can register to vote 2 years after you have completed your parole/probation sentence.",
                         "canVote": false
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Have you been convicted of treason?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Nebraska, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
                     }
                 ]
             }
