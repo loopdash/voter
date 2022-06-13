@@ -203,15 +203,19 @@
             },
             {
                 "id": 2,
-                "value": "Are you...",
-                
-                "extra": "<ul><li>Currently incarcerated serving a felony prison sentence or are incarcerated as a result of a parole violation?</li><li>Currently on parole for a felony?</li></ul>",
+                "value": "Are you currently incarcerated in a state or federal facility, on probation, or parole for a felony?",
+                "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
-                        "value": "Yes",
+                        "value": "Yes, I'm incarcerated",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
                         "canVote": false
+                    },
+                    {
+                        "value": "Yes, I'm on probation or parole",
+                        "result": "In California, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
                     },
                     {
                         "value": "No",
@@ -220,6 +224,7 @@
                     }
                 ]
             }
+
         ]
     },
     {
