@@ -40,7 +40,7 @@ class About extends Component {
           </blockquote>
           <h3><strong>Step 4:</strong> Using an HTML content block, paste the embed code onto the page. It should look like the screenshot below.</h3>
           <p>
-            <img src="https://u1tl8hn7.directus.app/assets/23ed7838-4b10-445d-84f6-b4d600b2b54f?width=594&amp;height=206" alt="Iframe Wordpress" />\]
+            <img src="https://u1tl8hn7.directus.app/assets/23ed7838-4b10-445d-84f6-b4d600b2b54f?width=594&amp;height=206" alt="Iframe Wordpress" />
           </p>
           <h3><strong>Step 5:</strong> Publish the page and share with your networks!</h3>
           <p>Hip Hop Caucus is monitoring how many site visitors are using the tool, and we can share that information with all organizations who wish to receive the data. For additional technical questions, please contact JaRel Clay at <a href="mailto:jarel@hiphopcaucus.org">jarel@hiphopcaucus.org</a>.</p>
