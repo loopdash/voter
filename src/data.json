@@ -203,7 +203,7 @@
             },
             {
                 "id": 2,
-                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "value": "Are you currently incarcerated in a state or federal facility, on probation, or parole for a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
