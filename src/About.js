@@ -14,8 +14,7 @@ class About extends Component {
     fetch(`https://u1tl8hn7.directus.app/items/pages?filter[title][_eq]=About`, {
       crossDomain:true,
       method: 'GET',
-      mode: 'cors',
-      headers: {'Content-Type':'application/json' }
+      headers: {'Content-Type':'application/json', 'Access-Control-Allow-Origin': 'https://u1tl8hn7.directus.app'}
     }).then(res => res.json())
       .then(json => {
         let body = json.data[0].body;
