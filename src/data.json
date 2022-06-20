@@ -2122,6 +2122,24 @@
         "questions": [
             {
                 "id": 1,
+                "value": "Do you owe child support or court fees?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 2,
                 "value": "Have you ever been charged or convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
@@ -2139,14 +2157,32 @@
                 ]
             },
             {
-                "id": 2,
+                "id": 3,
+                "value": "Have you committed any of these 21 crimes?",
+                "extra": "<ul><li>Abusing a female child</li><li>Arson and felonious burning</li><li>Bigamy</li><li>Bribery</li><li>Burglary</li><li>Felonious breaking into a business house</li><li>outhouse other than a dwelling house</li><li>Felonious breaking and entering a dwelling house</li><li>Larceny</li><li>Horse stealing</li><li>Robbery</li><li>Stealing bills of exchange or other valuable papers</li><li>Receiving stolen property</li><li>Counterfeiting</li><li>Forgery</li><li>Destroying a will</li><li>Incest</li><li>Rape</li><li>Sodomy</li><li>Buggery</li><li>Perjury</li><li>Subornation of perjury?</li></ul>",
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>permanently disenfranchised</strong> from voting.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 4,
                 "value": "Are you currently incarcerated, on probation, or parole for a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": null,
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
                         "canVote": false
                     },
                     {
@@ -2157,7 +2193,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 5,
                 "value": "Were you convicted between 1973 and 1981?",
                 "extra": null,
                 "selectedOption": null,
@@ -2171,24 +2207,6 @@
                         "value": "No",
                         "result": null,
                         "canVote": null
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "value": "Have you committed any of these 21 crimes?",
-                "extra": "<ul><li>Abusing a female child</li><li>Arson and felonious burning</li><li>Bigamy</li><li>Bribery</li><li>Burglary</li><li>Felonious breaking into a business house</li><li>outhouse other than a dwelling house</li><li>Felonious breaking and entering a dwelling house</li><li>Larceny</li><li>Horse stealing</li><li>Robbery</li><li>Stealing bills of exchange or other valuable papers</li><li>Receiving stolen property</li><li>Counterfeiting</li><li>Forgery</li><li>Destroying a will</li><li>Incest</li><li>Rape</li><li>Sodomy</li><li>Buggery</li><li>Perjury</li><li>Subornation of perjury?</li></ul>",
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>permanently disenfranchised</strong> from voting.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": "You are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
-                        "canVote": true
                     }
                 ]
             }
