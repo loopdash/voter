@@ -388,49 +388,8 @@
         "label": "District Of Columbia",
         "value": "District Of Columbia",
         "isSelected": false,
-        "questions": [
-            {
-                "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "No",
-                        "result": "In District Of Columbia, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "value": "Are you currently incarcerated for a felony or misdemeanor?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes, a misdemeanor",
-                        "result": "In District Of Columbia, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
-                    },
-                    {
-                        "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": "In District Of Columbia, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
-                    }
-                ]
-            }
-        ]
+        "questions": null,
+        "result": "In DC, there are no restrictions on eligibility to vote based on criminal convictions. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>"
     },
     {
         "label": "Florida",
