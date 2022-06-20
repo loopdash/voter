@@ -2413,7 +2413,7 @@
             },
             {
                 "id": 2,
-                "value": "Are you currently incarcerated or on parole for a felony?",
+                "value": "Are you currently incarcerated for a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
