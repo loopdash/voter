@@ -434,6 +434,24 @@
             },
             {
                 "id": 3,
+                "value": "Have you paid all fees and court costs related to your offense?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Florida, you are <strong>not eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
+                        "canVote": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
                 "value": "Have you completed your sentence for a murder or sexual offense?",
                 "extra": null,
                 "selectedOption": null,
