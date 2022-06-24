@@ -367,7 +367,7 @@
             {
                 "id": 3,
                 "value": "Have you been convicted of a felony of moral turpitude?",
-                "extra": "The phrase “moral turpitude” describes an offense or crime that is vile or an insult to morality. Such a crime typically involves fraud, dishonesty, or anything that goes against the norms of society.",
+                "extra": "The phrase “moral turpitude” describes an offense or crime that is vile or an insult to morality. Such a crime typically involves fraud, dishonesty, or anything that goes against the norms of society. <strong>Common felonies of moral turpitude include:</strong><ul><li>Murder</li><li>Manslaughter</li><li>Assault</li><li>Sexual assault</li><li>Sexual abuse of a minor</li><li>Robbery</li><li>Arson</li><li>Burglary</li><li>Theft</li><li>Forgery</li><li>Endangering the welfare of a minor</li><li>Riot</li><li>Criminal mischef</li><li>Misconduct involving a controlled substance</li><li>Distribution or possession of child pornography</li></ul><strong>NOTE: </strong>This is not a complete list of felonies of moral turpitude. If you are unsure if your conviction qualifies as a felony of moral turpitude, call or have a friend or family member call 1-866-OUR-VOTE for assistance.",
                 "selectedOption": null,
                 "options": [
                     {
