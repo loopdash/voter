@@ -1669,13 +1669,30 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
+                        "result": null,
+                        "canVote": null
                     },
                     {
                         "value": "No",
                         "result": "In North Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Has your stay been lifted from the Court of Appeals?",
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "In North Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
                     }
                 ]
             }
