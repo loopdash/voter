@@ -1878,6 +1878,11 @@
                         "canVote": false
                     },
                     {
+                        "value": "No, I was released early",
+                        "result": "In Oklahoma, you <strong>might be eligible</strong> to vote. If you got out early you can't vote until your full sentence is over. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": null
+                    },
+                    {
                         "value": "No",
                         "result": "In Oklahoma, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
