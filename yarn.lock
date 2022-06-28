@@ -9279,6 +9279,11 @@
   "resolved" "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.9.tgz"
   "version" "6.0.9"
 
+"react-ga4@^1.4.1":
+  "integrity" "sha512-ioBMEIxd4ePw4YtaloTUgqhQGqz5ebDdC4slEpLgy2sLx1LuZBC9iYCwDymTXzcntw6K1dHX183ulP32nNdG7w=="
+  "resolved" "https://registry.npmjs.org/react-ga4/-/react-ga4-1.4.1.tgz"
+  "version" "1.4.1"
+
 "react-input-autosize@^3.0.0":
   "integrity" "sha512-nL9uS7jEs/zu8sqwFE5MAPx6pPkNAriACQ2rGLlqmKr2sPGtN7TXTyDdQt4lbNXVx7Uzadb40x8qotIuru6Rhg=="
   "resolved" "https://registry.npmjs.org/react-input-autosize/-/react-input-autosize-3.0.0.tgz"
