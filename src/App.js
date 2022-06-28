@@ -11,6 +11,11 @@ typography.injectStyles()
 function App() {
   let appClass = window === window.parent ? 'wrapper' : null;
 
+  var url = (window.location !== window.parent.location)
+            ? document.referrer
+            : document.location.href;
+  console.log('url');
+  console.log(url);
   return (
     <div className={`App ${appClass}`}>
       <Routes>
