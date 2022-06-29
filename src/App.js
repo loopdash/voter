@@ -16,7 +16,8 @@ function App() {
             document.referrer;
 
   ReactGA.initialize([{
-    trackingId: "G-7RH0TMQQ64"
+    trackingId: "G-7RH0TMQQ64",
+    gaOptions: { cookieFlags: 'max-age=7200;secure;samesite=none' }
   }]);
 
 
