@@ -20,10 +20,12 @@ function App() {
   }]);
 
 
+  console.log('documentReferrer')
+  console.log(documentReferrer)
 
   ReactGA.event({
-    category: "domain_referrer",
-    action: "domain_referrer",
+    category: "page_view",
+    action: "page_location",
     label: documentReferrer
   });
 
