@@ -11,7 +11,7 @@ typography.injectStyles()
 
 function App() {
   let appClass = window === window.parent ? 'wrapper' : null;
-  var domainReferrer = (window === window.parent) ?
+  var documentReferrer = (window === window.parent) ?
             document.location.href :
             document.referrer;
 
@@ -20,9 +20,11 @@ function App() {
   }]);
 
 
+
   ReactGA.event({
     category: "domain_referrer",
-    action: domainReferrer
+    action: "domain_referrer",
+    label: documentReferrer
   });
 
   return (
