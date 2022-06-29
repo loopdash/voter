@@ -24,8 +24,8 @@ function App() {
   console.log(documentReferrer)
 
   ReactGA.event({
-    category: "page_view",
-    action: "page_location",
+    category: "domain_referrer",
+    action: "domain_referrer",
     label: documentReferrer
   });
 
