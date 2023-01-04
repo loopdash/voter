@@ -123,13 +123,13 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
+                        "result": "You might be able to vote. Please apply for restoration to the superior court in the county in which you were convicted then register to vote if your rights are restored. <br /><br />If you are uncertain about the next step, call 1-866-OUR-VOTE for more information.",
+                        "canVote": null
                     },
                     {
                         "value": "No",
-                        "result": "You might be able to vote. Please apply for restoration to the superior court in the county in which you were convicted then register to vote if your rights are restored. <br /><br />If you are uncertain about the next step, call 1-866-OUR-VOTE for more information.",
-                        "canVote": null
+                        "result": "In Arizona, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
                     }
                 ]
             }
