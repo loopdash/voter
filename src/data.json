@@ -1646,53 +1646,14 @@
                 "selectedOption": null,
                 "options": [
                     {
-                        "value": "Yes, a misdemeanor",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "Yes, a felony",
+                        "value": "Yes",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Are you on probation or parole?",
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "No",
                         "result": "In North Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Has your stay been lifted from the Court of Appeals?",
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "In North Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
-                    },
-                    {
-                        "value": "No",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
                     }
                 ]
             }
