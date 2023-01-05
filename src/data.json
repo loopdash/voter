@@ -1181,7 +1181,7 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. <br /><br /><a href='https://governor.iowa.gov/services/voting-rights-restoration/' target='_blank' class='btn'>Restore your rights</a>",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. <br /><br /><a href='https://secure.everyaction.com/nD1pmVzJcEWyjWLxfxJorw2/' target='_blank' class='btn'>Restore your rights</a>",
                         "canVote": false
                     },
                     {
