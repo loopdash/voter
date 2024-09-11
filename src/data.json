@@ -1650,9 +1650,14 @@
                 "selectedOption": null,
                 "options": [
                     {
-                        "value": "Yes",
+                        "value": "Yes, I am currently incarcerated for a felony.",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
                         "canVote": false
+                    },
+                    {
+                        "value": "Yes, I am on parole or probation for a felony.",
+                        "result": "In New Mexico, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
                     },
                     {
                         "value": "No",

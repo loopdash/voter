@@ -207,7 +207,7 @@ blockquote {
   user-select: none;
   border: 1px solid transparent;
   padding: .475rem .875rem;
-  font-size: 1rem;
+  font-size: 0.875rem;
   line-height: 1.5;
   transition: color .225s ease-in-out,background-color .225s ease-in-out,border-color .225s ease-in-out,box-shadow .225s ease-in-out;
 }
@@ -247,7 +247,10 @@ label.btn {
   background-color: var(--brand-2);
   border-color: var(--brand-2);
 }
-
+.radio-options {
+  display: flex;
+  flex-direction: column;
+}
 
 .About img {
   border-radius: 10px;
