@@ -155,7 +155,9 @@ class Home extends React.Component {
     let questionFields = (questions ? questions.map((question, i) =>
       <div className={(i < questionsToShow) ? 'form-group' : 'form-group hide'}>
         <label>{question.value}</label>
-        <p dangerouslySetInnerHTML={{__html: question.extra}}></p>
+        {question.extra && (
+          <p dangerouslySetInnerHTML={{ __html: question.extra }}></p>
+        )}
         {this.renderOptions(question)}
       </div>
     ) : null);
