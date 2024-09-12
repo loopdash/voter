@@ -6,19 +6,114 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
+                        "result": null,
+                        "canVote": null
                     },
                     {
                         "value": "No",
                         "result": "In Alabama, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "value": "Have you been convicted of one or more of the following felonies?",
+                "extra": "<ul><li>Aggravated child abuse</li><li>Aggravated theft by deception</li><li>Assault (1st or 2nd degree)</li><li>Attempt to commit an explosives or destructive device or bacteriological or biological weapons crime</li><li>Bigamy</li><li>Burglary (1st or 2nd degree)</li><li>Conspiracy to commit an explosives or destructive device or bacteriological or biological weapons crime</li><li>Dissemination or public display of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Distribution, possession with intent to distribute, production of, or offer or agreement to distribute or produce obscene material</li><li>Electronic solicitation of a child</li><li>Endangering the water supply</li><li>Enticing a child to enter a vehicle for immoral purposes</li><li>Facilitating solicitation of unlawful sexual conduct with a child</li><li>Facilitating the online solicitation of a child</li><li>Facilitating the travel of a child for an unlawful sex act</li><li>Forgery (1st or 2nd degree)</li><li>Hindrance or obstruction during detection, disarming, or destruction of a destructive device or weapon</li><li>Hindering prosecution of terrorism</li><li>Human trafficking (1st or 2nd degree)</li><li>Incest</li><li>Kidnapping (1st or 2nd degree)</li><li>Manslaughter</li><li>Murder (including noncapital, reckless, and felony murder)</li><li>Parents or guardians permitting children to engage in production of obscene matter</li><li>Possession or possession with intent to disseminate of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Possession, manufacture, transport, or distribution of a destructive device or bacteriological or biological weapon</li><li>Possession, manufacture, transport, or distribution of a detonator, explosive, poison, or hoax device</li><li>Possession or distribution of a hoax device represented as a destructive device or weapon</li><li>Production of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Production or distribution of a destructive device or weapon intended to cause injury or destruction</li><li>Prohibited acts in the offer, sale, or purchase of securities</li><li>Rape (1st or 2nd degree)</li><li>Robbery (1st, 2nd, or 3rd degree)</li><li>Selling, furnishing, giving away, delivering, or distribution of a destructive device, a bacteriological weapon, or biological weapon to a person who is less than 21 years of age</li><li>Sexual abuse (1st or 2nd degree)</li><li>Sexual abuse of a child under 12 years old</li><li>Sexual torture</li><li>Sodomy (1st or 2nd degree)</li><li>Soliciting or providing support for an act of terrorism</li><li>Terrorism</li><li>Theft of lost property (1st or 2nd degree)</li><li>Theft of property (1st or 2nd degree)</li><li>Theft of trademarks or trade secrets</li><li>Torture or other willful maltreatment of a child under the age of 18 (Child Abuse)</li><li>Trafficking in cannabis, cocaine, or other illegal drugs or trafficking in amphetamine or methamphetamine</li><li>Traveling to meet a child for an unlawful sex act</li><li>Treason</li></ul>",
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Alabama, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    },
+                    {
+                        "value": "I was convicted in federal court or outside of Alabama",
+                        "result": "Under Alabama law, convictions in other states or in federal court only take away the right to vote if they would constitute one of above offenses had they been convictions in Alabama state court.",
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Have you been convicted of one or more of the following felonies? ",
+                "extra": "<ul><li>Impeachment</li><li>Murder</li><li>Rape</li><li>Sodomy</li><li>Sexual Abuse</li><li>Sexual Crimes Against Children</li><li>Treason</li></ul>",
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "You may be able to restore your right to vote by seeking a pardon from the Board of Pardons and Paroles. <br />To request a pardon, <a href='https://paroles.alabama.gov/wp-content/uploads/ABPP-3-Pardon-Application.pdf' target='_blank'>you can complete this form and submit it to the Alabama Board of Pardons and Paroles.",
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "value": "Have you completed your sentence including probation and or parole?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately you are not yet eligible to restore your voting rights. You will be eligible once you complete your sentence and pay all fines, fees and restitution that you owe.",
+                        "canVote": false
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "value": "Do you owe any outstanding fines, fees, or restitution from your conviction of one of the above felonies?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are currently ineligible to restore your voting rights. You are ineligible to restore your right to vote until you have paid off your fines, fees, and restitution or the Board of Pardons and Paroles has forgiven them. <br/>You can request a reduction or forgiveness of your fines&nbsp;by <a href='https://paroles.alabama.gov/wp-content/uploads/ABPP-5-Remission-of-Fine-and-or-Forfeiture-Application.pdf'>filling out this form and submitting it to the Alabama Board of Pardons and Paroles.</a>",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "value": "Do you have any pending felony charges?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are currently ineligible to restore your voting rights. You are ineligible to restore your right to vote until you have paid off your fines, fees, and restitution or the Board of Pardons and Paroles has forgiven them. <br/>You can request a reduction or forgiveness of your fines&nbsp;by <a href='https://paroles.alabama.gov/wp-content/uploads/ABPP-5-Remission-of-Fine-and-or-Forfeiture-Application.pdf'>filling out this form and submitting it to the Alabama Board of Pardons and Paroles.</a>",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "You are eligible to restore your voting rights. If you complete a <a href='https://paroles.alabama.gov/wp-content/uploads/ABPP-4-CERV-Application.pdf'>request for a&nbsp;</a><a href='https://assets.website-files.com/5aff1e69c4077648da37acb5/5b3f7acc4521fe6146f2cac2_Voting%20rights%20CERV%20form.pdf'>Certificate of Eligibility to Register to Vote</a><a href='https://paroles.alabama.gov/wp-content/uploads/ABPP-4-CERV-Application.pdf'>(CERV)</a> and submit it to the Alabama Board of Pardons and Paroles, the state must restore your right to vote. The state should respond to your request within 44 days.",
+                        "canVote": null
                     }
                 ]
             }
@@ -31,7 +126,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -81,7 +176,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -123,13 +218,13 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
+                        "result": "You might be able to vote. Please apply for restoration to the superior court in the county in which you were convicted then register to vote if your rights are restored. <br /><br />If you are uncertain about the next step, call 1-866-OUR-VOTE for more information.",
+                        "canVote": null
                     },
                     {
                         "value": "No",
-                        "result": "You might be able to vote. Please apply for restoration to the superior court in the county in which you were convicted then register to vote if your rights are restored. <br /><br />If you are uncertain about the next step, call 1-866-OUR-VOTE for more information.",
-                        "canVote": null
+                        "result": "In Arizona, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
                     }
                 ]
             }
@@ -142,7 +237,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -185,7 +280,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -234,7 +329,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -282,7 +377,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -330,7 +425,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -398,7 +493,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -482,7 +577,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -525,7 +620,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -573,7 +668,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -621,7 +716,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -664,7 +759,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -712,7 +807,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -760,7 +855,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -821,7 +916,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -864,7 +959,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -925,7 +1020,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -975,7 +1070,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1066,7 +1161,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1114,7 +1209,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1157,7 +1252,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1181,7 +1276,7 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. <br /><br /><a href='https://governor.iowa.gov/services/voting-rights-restoration/' target='_blank' class='btn'>Restore your rights</a>",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. <br /><br /><a href='https://secure.everyaction.com/nD1pmVzJcEWyjWLxfxJorw2/' target='_blank' class='btn'>Restore your rights</a>",
                         "canVote": false
                     },
                     {
@@ -1218,7 +1313,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1261,7 +1356,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1309,7 +1404,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1388,7 +1483,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1436,7 +1531,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1484,7 +1579,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1532,7 +1627,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1555,9 +1650,14 @@
                 "selectedOption": null,
                 "options": [
                     {
-                        "value": "Yes",
+                        "value": "Yes, I am currently incarcerated for a felony.",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
                         "canVote": false
+                    },
+                    {
+                        "value": "Yes, I am on parole or probation for a felony.",
+                        "result": "In New Mexico, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
                     },
                     {
                         "value": "No",
@@ -1575,7 +1675,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1623,7 +1723,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1646,53 +1746,14 @@
                 "selectedOption": null,
                 "options": [
                     {
-                        "value": "Yes, a misdemeanor",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "Yes, a felony",
+                        "value": "Yes",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Are you on probation or parole?",
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "No",
                         "result": "In North Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Has your stay been lifted from the Court of Appeals?",
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "In North Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
-                    },
-                    {
-                        "value": "No",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
                     }
                 ]
             }
@@ -1705,7 +1766,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1753,7 +1814,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1801,7 +1862,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1867,7 +1928,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1915,7 +1976,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1963,7 +2024,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2018,7 +2079,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2066,7 +2127,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2109,7 +2170,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2188,7 +2249,7 @@
             },
             {
                 "id": 2,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2267,7 +2328,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2310,7 +2371,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2365,7 +2426,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2413,7 +2474,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony or misdemeanor?",
+                "value": "Have you ever been convicted of a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2461,7 +2522,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2505,7 +2566,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2548,7 +2609,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2591,7 +2652,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been charged or convicted of a felony?",
+                "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [

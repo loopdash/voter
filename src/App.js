@@ -16,10 +16,13 @@ function App() {
             document.referrer;
 
   ReactGA.initialize([{
-    trackingId: "G-7RH0TMQQ64"
+    trackingId: "G-W5327FDEHY",
+    gaOptions: { cookieFlags: 'max-age=7200;secure;samesite=none' }
   }]);
 
 
+  console.log('documentReferrer')
+  console.log(documentReferrer)
 
   ReactGA.event({
     category: "domain_referrer",
