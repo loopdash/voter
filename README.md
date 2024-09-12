@@ -7,7 +7,7 @@ Adds a voting questionnaire to some websites.
 ## URLs
 
 - **Staging URL**: [https://staging--affectionate-shannon-7ae802.netlify.app/](https://staging--affectionate-shannon-7ae802.netlify.app/)
-- **Production URL**: [https://affectionate-shannon-7ae802.netlify.app/](https://affectionate-shannon-7ae802.netlify.app/)
+- **Production URL**: [https://affectionate-shannon-7ae802.netlify.app/](https://affectionate-shannon-7ae802.netlify.app/) || [https://vote.hiphopcaucus.org/](https://vote.hiphopcaucus.org/)
 
 ## Branches
 

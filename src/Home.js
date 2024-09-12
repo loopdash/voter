@@ -148,7 +148,7 @@ class Home extends React.Component {
             },
           })}
         />
-        <p className="float-right small">Data provided by Hip Hop Caucus' <a href="http://respectmyvote.com" target="_blank" rel="noreferrer">Respect My Vote!</a> campaign</p>
+        <p className="float-right small">Data provided by Hip Hop Caucus' <a href="http://respectmyvote.com" target="_blank" rel="noreferrer">Respect My Vote!</a> campaign.</p>
       </div>
     );
 
