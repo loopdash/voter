@@ -25,7 +25,7 @@
             {
                 "id": 2,
                 "value": "Have you been convicted of one or more of the following felonies?",
-                "extra": "<ul><li>Aggravated child abuse</li><li>Aggravated theft by deception</li><li>Assault (1st or 2nd degree)</li><li>Attempt to commit an explosives or destructive device or bacteriological or biological weapons crime</li><li>Bigamy</li><li>Burglary (1st or 2nd degree)</li><li>Conspiracy to commit an explosives or destructive device or bacteriological or biological weapons crime</li><li>Dissemination or public display of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Distribution, possession with intent to distribute, production of, or offer or agreement to distribute or produce obscene material</li><li>Electronic solicitation of a child</li><li>Endangering the water supply</li><li>Enticing a child to enter a vehicle for immoral purposes</li><li>Facilitating solicitation of unlawful sexual conduct with a child</li><li>Facilitating the online solicitation of a child</li><li>Facilitating the travel of a child for an unlawful sex act</li><li>Forgery (1st or 2nd degree)</li><li>Hindrance or obstruction during detection, disarming, or destruction of a destructive device or weapon</li><li>Hindering prosecution of terrorism</li><li>Human trafficking (1st or 2nd degree)</li><li>Incest</li><li>Kidnapping (1st or 2nd degree)</li><li>Manslaughter</li><li>Murder (including noncapital, reckless, and felony murder)</li><li>Parents or guardians permitting children to engage in production of obscene matter</li><li>Possession or possession with intent to disseminate of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Possession, manufacture, transport, or distribution of a destructive device or bacteriological or biological weapon</li><li>Possession, manufacture, transport, or distribution of a detonator, explosive, poison, or hoax device</li><li>Possession or distribution of a hoax device represented as a destructive device or weapon</li><li>Production of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Production or distribution of a destructive device or weapon intended to cause injury or destruction</li><li>Prohibited acts in the offer, sale, or purchase of securities</li><li>Rape (1st or 2nd degree)</li><li>Robbery (1st, 2nd, or 3rd degree)</li><li>Selling, furnishing, giving away, delivering, or distribution of a destructive device, a bacteriological weapon, or biological weapon to a person who is less than 21 years of age</li><li>Sexual abuse (1st or 2nd degree)</li><li>Sexual abuse of a child under 12 years old</li><li>Sexual torture</li><li>Sodomy (1st or 2nd degree)</li><li>Soliciting or providing support for an act of terrorism</li><li>Terrorism</li><li>Theft of lost property (1st or 2nd degree)</li><li>Theft of property (1st or 2nd degree)</li><li>Theft of trademarks or trade secrets</li><li>Torture or other willful maltreatment of a child under the age of 18 (Child Abuse)</li><li>Trafficking in cannabis, cocaine, or other illegal drugs or trafficking in amphetamine or methamphetamine</li><li>Traveling to meet a child for an unlawful sex act</li><li>Treason</li></ul>",
+                "extra": "<ul><li>Aggravated child abuse</li><li>Aggravated theft by deception</li><li>Assault (1st or 2nd degree)</li><li>Attempt to commit an explosives or destructive device or bacteriological or biological weapons crime</li><li>Bigamy</li><li>Burglary (1st or 2nd degree)</li><li>Conspiracy to commit an explosives or destructive device or bacteriological or biological weapons crime</li><li>Dissemination or public display of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Distribution, possession with intent to distribute, production of, or offer or agreement to distribute or produce obscene material</li><li>Electronic solicitation of a child</li><li>Endangering the water supply</li><li>Enticing a child to enter a vehicle for immoral purposes</li><li>Facilitating solicitation of unlawful sexual conduct with a child</li><li>Facilitating the online solicitation of a child</li><li>Facilitating the travel of a child for an unlawful sex act</li><li>Forgery (1st or 2nd degree)</li><li>Hindrance or obstruction during detection, disarming, or destruction of a destructive device or weapon</li><li>Hindering prosecution of terrorism</li><li>Human trafficking (1st or 2nd degree)</li><li>Incest</li><li>Kidnapping (1st or 2nd degree)</li><li>Manslaughter</li><li>Murder (including noncapital, reckless, and felony murder)</li><li>Parents or guardians permitting children to engage in production of obscene matter</li><li>Possession or possession with intent to disseminate of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Possession, manufacture, transport, or distribution of a destructive device or bacteriological or biological weapon</li><li>Possession, manufacture, transport, or distribution of a detonator, explosive, poison, or hoax device</li><li>Possession or distribution of a hoax device represented as a destructive device or weapon</li><li>Production of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Production or distribution of a destructive device or weapon intended to cause injury or destruction</li><li>Prohibited acts in the offer, sale, or purchase of securities</li><li>Rape (1st or 2nd degree)</li><li>Robbery (1st, 2nd, or 3rd degree)</li><li>Selling, furnishing, giving away, delivering, or distribution of a destructive device, a bacteriological weapon, or biological weapon to a person who is less than 21 years of age</li><li>Sexual abuse (1st or 2nd degree)</li><li>Sexual abuse of a child under 12 years old</li><li>Sexual torture</li><li>Sodomy (1st or 2nd degree)</li><li>Soliciting or providing support for an act of terrorism</li><li>Terrorism</li><li>Theft of lost property (1st or 2nd degree)</li><li>Theft of property (1st or 2nd degree)</li><li>Theft of trademarks or trade secrets</li><li>Torture or other willful maltreatment of a child under the age of 18 (Child Abuse)</li><li>Trafficking in cannabis, cocaine, or other illegal drugs or trafficking in amphetamine or methamphetamine</li><li>Traveling to meet a child for an unlawful sex act</li><li>Treason</li><li>Or any other felony involving <a href='https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Updated%20Version%20of%20Moral%20Turpitude%20Crimes.pdf'>Moral Turpitude</a>?</li></ul>",
                 "selectedOption": null,
                 "options": [
                     {
@@ -212,13 +212,31 @@
             },
             {
                 "id": 3,
-                "value": "Have you had multiple felonies and have not been pardoned?",
+                "value": "Have you been convicted of two or more felonies?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "You might be able to vote. Please apply for restoration to the superior court in the county in which you were convicted then register to vote if your rights are restored. <br /><br />If you are uncertain about the next step, call 1-866-OUR-VOTE for more information.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You may be able to restore your right to vote by applying to the court for restoration of rights.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "value": "Do you owe any outstanding fines, fees, or restitution from your conviction?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <string>not eligible</strong> to vote. You will be eligible once you complete your sentence and pay all fines, fees and restitution that you owe.",
                         "canVote": null
                     },
                     {
@@ -461,8 +479,8 @@
             },
             {
                 "id": 3,
-                "value": "Have you been convicted of a felony of moral turpitude?",
-                "extra": "The phrase “moral turpitude” describes an offense or crime that is vile or an insult to morality. Such a crime typically involves fraud, dishonesty, or anything that goes against the norms of society. <strong>Common felonies of moral turpitude include:</strong><ul><li>Murder</li><li>Manslaughter</li><li>Assault</li><li>Sexual assault</li><li>Sexual abuse of a minor</li><li>Robbery</li><li>Arson</li><li>Burglary</li><li>Theft</li><li>Forgery</li><li>Endangering the welfare of a minor</li><li>Riot</li><li>Criminal mischef</li><li>Misconduct involving a controlled substance</li><li>Distribution or possession of child pornography</li></ul><strong>NOTE: </strong>This is not a complete list of felonies of moral turpitude. If you are unsure if your conviction qualifies as a felony of moral turpitude, call or have a friend or family member call 1-866-OUR-VOTE for assistance.",
+                "value": "Have you been convicted of a disqualifying felony?",
+                "extra": "Disqualifying felonies are: murder, bribery, and sexual offenses",
                 "selectedOption": null,
                 "options": [
                     {
@@ -873,13 +891,13 @@
             },
             {
                 "id": 2,
-                "value": "Were you convicted of homicide?",
+                "value": "Were you convicted of an infamous crime?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. <br /><br /><a href='https://governor.iowa.gov/services/voting-rights-restoration/' target='_blank' class='btn'>Restore your rights</a>",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You may be able to vote again by obtaining a pardon from the governor.",
                         "canVote": false
                     },
                     {
@@ -1270,25 +1288,7 @@
             },
             {
                 "id": 2,
-                "value": "Were you convicted of homicide?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. <br /><br /><a href='https://secure.everyaction.com/nD1pmVzJcEWyjWLxfxJorw2/' target='_blank' class='btn'>Restore your rights</a>",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Are you currently on probation or parole for one of the 23 barred crimes?",
+                "value": "Were you convicted of murder, rape, bribery, theft, arson, obtaining money or goods under false pretense, perjury, forgery, embezzlement, or bigamy?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1299,7 +1299,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Mississippi, you are <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br />Only individuals convicted of one of 23 specific felony crimes lose the right to vote (arson; armed robbery; bigamy; bribery; embezzlement; extortion; felony bad check; felony shoplifting; forgery; larceny; murder; obtaining money or goods under false pretense; perjury; rape; receiving stolen property; robbery; theft; timber larceny; unlawful taking of motor vehicle; statutory rape; carjacking; and larceny under lease or rental agreement.) <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Mississippi, you are <strong>eligible</strong> to vote. <br /><br />Only individuals convicted of one of 23 specific felony crimes lose the right to vote (arson; armed robbery; bigamy; bribery; embezzlement; extortion; felony bad check; felony shoplifting; forgery; larceny; murder; obtaining money or goods under false pretense; perjury; rape; receiving stolen property; robbery; theft; timber larceny; unlawful taking of motor vehicle; statutory rape; carjacking; and larceny under lease or rental agreement.) <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1429,42 +1429,6 @@
                     {
                         "value": "Yes",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Has it been more than 2 years since you have completed your sentence for a felony, including probation or parole?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "No",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You can register to vote 2 years after you have completed your parole/probation sentence.",
-                        "canVote": false
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Have you been convicted of treason?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote.",
                         "canVote": false
                     },
                     {
@@ -1752,8 +1716,44 @@
                     },
                     {
                         "value": "No",
-                        "result": "In North Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Have you completed your sentence including probation and or parole?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately you are not yet eligible to restore your voting rights. You will be eligible once you complete your sentence and pay all fines, fees and restitution that you owe.",
+                        "canVote": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "value": "Do you owe any outstanding fines, fees, or restitution from your conviction of one of the above felonies?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are currently ineligible to restore your voting rights. You are ineligible to restore your right to vote until you have paid off your fines, fees, and restitution.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
                     }
                 ]
             }
@@ -2230,24 +2230,6 @@
         "isSelected": false,
         "questions": [
             {
-                "id": 1,
-                "value": "Do you owe child support or court fees?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            },
-            {
                 "id": 2,
                 "value": "Have you ever been convicted of a felony?",
                 "extra": null,
@@ -2255,67 +2237,13 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "No",
-                        "result": "In Tennessee, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Have you committed any of these 21 crimes?",
-                "extra": "<ul><li>Abusing a female child</li><li>Arson and felonious burning</li><li>Bigamy</li><li>Bribery</li><li>Burglary</li><li>Felonious breaking into a business house</li><li>outhouse other than a dwelling house</li><li>Felonious breaking and entering a dwelling house</li><li>Larceny</li><li>Horse stealing</li><li>Robbery</li><li>Stealing bills of exchange or other valuable papers</li><li>Receiving stolen property</li><li>Counterfeiting</li><li>Forgery</li><li>Destroying a will</li><li>Incest</li><li>Rape</li><li>Sodomy</li><li>Buggery</li><li>Perjury</li><li>Subornation of perjury?</li></ul>",
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>permanently disenfranchised</strong> from voting.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You may be able to restore your right to vote by petitioning for restoration or be pardoned by the governor.",
                         "canVote": false
                     },
                     {
                         "value": "No",
                         "result": "In Tennessee, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "value": "Were you convicted between 1973 and 1981?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Individuals who have been convicted of felonies of moral turputide are eligible to vote only upon completion of their sentence, including probation and parole. The phrase “moral turpitude” describes an offense or crime that is vile or an insult to morality. Such a crime typically involves fraud, dishonesty, or anything that goes against the norms of society. <br /><br />Common felonies of moral turpitude include: murder, manslaughter, assault, sexual assault, sexual abuse of a minor, robery, arson, burglary, theft, forgery, endangering the welfare of a minor, riot, criminal mischef, misconduct involving a controlled substance, and distribution or possession of child pornography.<br /><br /><strong>NOTE: </strong>This is not a complete list of felonies of moral turpitude. If you are unsure if your conviction qualifies as a felony of moral turpitude, call or have a friend or family member call 1-866-OUR-VOTE for assistance.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": null,
-                        "canVote": null
                     }
                 ]
             }
@@ -2503,7 +2431,7 @@
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You may be able to restore your right to vote by applying for civil rights restoration.",
                         "canVote": false
                     },
                     {
@@ -2717,7 +2645,7 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "In Wyoming, people with violent felony convictions are permanently disenfranchised unless they appeal to the governor after a waiting period (5 years for restoration, 10 years for a pardon).<br/><br/>Please apply to your Governor for voting rights restoration.",
+                        "result": "In Wyoming, people with violent felony convictions are not a qualified elector until 5 years after their sentence. After which, their rights are automatically re-instated.",
                         "canVote": null
                     },
                     {
