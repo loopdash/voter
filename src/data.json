@@ -1752,8 +1752,8 @@
                     },
                     {
                         "value": "No",
-                        "result": null,
-                        "canVote": null
+                        "result": "In North Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
                     }
                 ]
             }
