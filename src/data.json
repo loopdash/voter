@@ -540,7 +540,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Florida, you are <strong>not eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
+                        "result": "In Florida, you are <strong>not eligible</strong> to vote.",
                         "canVote": false
                     }
                 ]
@@ -558,12 +558,12 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Florida, you are <strong>not eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
+                        "result": "In Florida, you are <strong>not eligible</strong> to vote.",
                         "canVote": false
                     },
                     {
                         "value": "This doesn't apply to me",
-                        "result": "In Florida, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
+                        "result": "In Florida, you are <strong>eligible</strong> to vote.",
                         "canVote": true
                     }
                 ]
