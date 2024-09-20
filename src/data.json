@@ -236,12 +236,30 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <string>not eligible</strong> to vote. You will be eligible once you complete your sentence and pay all fines, fees and restitution that you owe.",
-                        "canVote": null
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote. You will be eligible once you complete your sentence and pay all fines, fees, and restitution that you owe.",
+                        "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Arizona, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "value": "Is your felony conviction from out of state?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "You need to go to court to apply for restoration of your voting rights.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Arizona, you are <strong>eligible</strong> for automatic restoration of voting rights if you meet all other conditions. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1729,19 +1747,19 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": null,
-                        "canVote": null
+                        "result": "In North Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
                     },
                     {
                         "value": "No",
-                        "result": "Unfortunately you are not yet eligible to restore your voting rights. You will be eligible once you complete your sentence and pay all fines, fees and restitution that you owe.",
+                        "result": "Unfortunately, you are not yet eligible to restore your voting rights. You will be eligible once you complete your sentence including probation or parole.",
                         "canVote": false
                     }
                 ]
             },
             {
                 "id": 4,
-                "value": "Do you owe any outstanding fines, fees, or restitution from your conviction of one of the above felonies?",
+                "value": "Do you owe any outstanding fines, fees, or restitution from your conviction?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1754,6 +1772,24 @@
                         "value": "No",
                         "result": "In North Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "value": "Have you completed probation or parole as part of your sentence?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "In North Carolina, you are <strong>eligible</strong> to vote if all other conditions are met. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately, you are not yet eligible to vote. You must complete your probation or parole to restore your voting rights.",
+                        "canVote": false
                     }
                 ]
             }
