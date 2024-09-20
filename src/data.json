@@ -25,7 +25,7 @@
             {
                 "id": 2,
                 "value": "Have you been convicted of one or more of the following felonies?",
-                "extra": "<ul><li>Aggravated child abuse</li><li>Aggravated theft by deception</li><li>Assault (1st or 2nd degree)</li><li>Attempt to commit an explosives or destructive device or bacteriological or biological weapons crime</li><li>Bigamy</li><li>Burglary (1st or 2nd degree)</li><li>Conspiracy to commit an explosives or destructive device or bacteriological or biological weapons crime</li><li>Dissemination or public display of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Distribution, possession with intent to distribute, production of, or offer or agreement to distribute or produce obscene material</li><li>Electronic solicitation of a child</li><li>Endangering the water supply</li><li>Enticing a child to enter a vehicle for immoral purposes</li><li>Facilitating solicitation of unlawful sexual conduct with a child</li><li>Facilitating the online solicitation of a child</li><li>Facilitating the travel of a child for an unlawful sex act</li><li>Forgery (1st or 2nd degree)</li><li>Hindrance or obstruction during detection, disarming, or destruction of a destructive device or weapon</li><li>Hindering prosecution of terrorism</li><li>Human trafficking (1st or 2nd degree)</li><li>Incest</li><li>Kidnapping (1st or 2nd degree)</li><li>Manslaughter</li><li>Murder (including noncapital, reckless, and felony murder)</li><li>Parents or guardians permitting children to engage in production of obscene matter</li><li>Possession or possession with intent to disseminate of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Possession, manufacture, transport, or distribution of a destructive device or bacteriological or biological weapon</li><li>Possession, manufacture, transport, or distribution of a detonator, explosive, poison, or hoax device</li><li>Possession or distribution of a hoax device represented as a destructive device or weapon</li><li>Production of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Production or distribution of a destructive device or weapon intended to cause injury or destruction</li><li>Prohibited acts in the offer, sale, or purchase of securities</li><li>Rape (1st or 2nd degree)</li><li>Robbery (1st, 2nd, or 3rd degree)</li><li>Selling, furnishing, giving away, delivering, or distribution of a destructive device, a bacteriological weapon, or biological weapon to a person who is less than 21 years of age</li><li>Sexual abuse (1st or 2nd degree)</li><li>Sexual abuse of a child under 12 years old</li><li>Sexual torture</li><li>Sodomy (1st or 2nd degree)</li><li>Soliciting or providing support for an act of terrorism</li><li>Terrorism</li><li>Theft of lost property (1st or 2nd degree)</li><li>Theft of property (1st or 2nd degree)</li><li>Theft of trademarks or trade secrets</li><li>Torture or other willful maltreatment of a child under the age of 18 (Child Abuse)</li><li>Trafficking in cannabis, cocaine, or other illegal drugs or trafficking in amphetamine or methamphetamine</li><li>Traveling to meet a child for an unlawful sex act</li><li>Treason</li></ul>",
+                "extra": "<ul><li>Aggravated child abuse</li><li>Aggravated theft by deception</li><li>Assault (1st or 2nd degree)</li><li>Attempt to commit an explosives or destructive device or bacteriological or biological weapons crime</li><li>Bigamy</li><li>Burglary (1st or 2nd degree)</li><li>Conspiracy to commit an explosives or destructive device or bacteriological or biological weapons crime</li><li>Dissemination or public display of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Distribution, possession with intent to distribute, production of, or offer or agreement to distribute or produce obscene material</li><li>Electronic solicitation of a child</li><li>Endangering the water supply</li><li>Enticing a child to enter a vehicle for immoral purposes</li><li>Facilitating solicitation of unlawful sexual conduct with a child</li><li>Facilitating the online solicitation of a child</li><li>Facilitating the travel of a child for an unlawful sex act</li><li>Forgery (1st or 2nd degree)</li><li>Hindrance or obstruction during detection, disarming, or destruction of a destructive device or weapon</li><li>Hindering prosecution of terrorism</li><li>Human trafficking (1st or 2nd degree)</li><li>Incest</li><li>Kidnapping (1st or 2nd degree)</li><li>Manslaughter</li><li>Murder (including noncapital, reckless, and felony murder)</li><li>Parents or guardians permitting children to engage in production of obscene matter</li><li>Possession or possession with intent to disseminate of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Possession, manufacture, transport, or distribution of a destructive device or bacteriological or biological weapon</li><li>Possession, manufacture, transport, or distribution of a detonator, explosive, poison, or hoax device</li><li>Possession or distribution of a hoax device represented as a destructive device or weapon</li><li>Production of obscene matter containing visual depiction of persons under 17 years of age involved in obscene acts</li><li>Production or distribution of a destructive device or weapon intended to cause injury or destruction</li><li>Prohibited acts in the offer, sale, or purchase of securities</li><li>Rape (1st or 2nd degree)</li><li>Robbery (1st, 2nd, or 3rd degree)</li><li>Selling, furnishing, giving away, delivering, or distribution of a destructive device, a bacteriological weapon, or biological weapon to a person who is less than 21 years of age</li><li>Sexual abuse (1st or 2nd degree)</li><li>Sexual abuse of a child under 12 years old</li><li>Sexual torture</li><li>Sodomy (1st or 2nd degree)</li><li>Soliciting or providing support for an act of terrorism</li><li>Terrorism</li><li>Theft of lost property (1st or 2nd degree)</li><li>Theft of property (1st or 2nd degree)</li><li>Theft of trademarks or trade secrets</li><li>Torture or other willful maltreatment of a child under the age of 18 (Child Abuse)</li><li>Trafficking in cannabis, cocaine, or other illegal drugs or trafficking in amphetamine or methamphetamine</li><li>Traveling to meet a child for an unlawful sex act</li><li>Treason</li><li>Or any other felony involving <a href='https://www.sos.alabama.gov/sites/default/files/voter-pdfs/Updated%20Version%20of%20Moral%20Turpitude%20Crimes.pdf'>Moral Turpitude</a>?</li></ul>",
                 "selectedOption": null,
                 "options": [
                     {
@@ -145,7 +145,7 @@
             {
                 "id": 2,
                 "value": "Are you currently incarcerated, on probation, or parole for a felony of moral turpitude?",
-                "extra": "The phrase “moral turpitude” describes an offense or crime that is vile or an insult to morality. Such a crime typically involves fraud, dishonesty, or anything that goes against the norms of society.",
+                "extra": "<ul><li>Arson (1st or 2nd Degree)</li><li>Assault (1st, 2nd, or 3rd Degree)</li><li>Bribery</li><li>Burglary (1st or 2nd Degree)</li><li>Coercion</li><li>Commercial Bribe Receiving</li><li>Commercial Bribery</li><li>Concealment of Merchandise</li><li>Criminal Mischief (1st or 2nd Degree)</li><li>Criminal Possession of a Forgery Device</li><li>Criminal Possession of Explosives</li><li>Criminal Simulation</li><li>Criminal Use of a Computer</li><li>Criminally Negligent Homicide</li><li>Defrauding Creditors</li><li>Distribution of Child Pornography</li><li>Endangering the Welfare of a Minor</li><li>Escape (1st, 2nd, or 3rd Degree)</li><li>Extortion</li><li>Falsifying Business Records</li><li>Felonies Involving Imitation Controlled Substance</li><li>Felonies Involving Interference with Voting, Elections, or Voter Misconduct</li><li>Felonies Relating to Title, Registration, etc. of Motor Vehicles</li><li>Forgery (1st or 2nd Degree)</li><li>Fraudulent Use or Obtaining a Credit Card</li><li>Harming a Police Dog (1st Degree)</li><li>Hindering Prosecution (1st Degree)</li><li>Incest</li><li>Interference with Official Proceedings</li><li>Jury Tampering</li><li>Kidnapping</li><li>Manslaughter</li><li>Misapplication of Property</li><li>Misconduct by a Juror</li><li>Misconduct Involving a Controlled Substance or an Imitation Controlled Substance (1st, 2nd, 3rd, or 4th Degree)</li><li>Murder (1st or 2nd Degree)</li><li>Offering a False Instrument for Recording</li><li>Perjury</li><li>Perjury by Inconsistent Statements</li><li>Permitting an Escape</li><li>Possession of Child Pornography</li><li>Possession Gambling Records</li><li>Promoting Contraband (1st Degree)</li><li>Promoting Gambling</li><li>Promoting Prostitution (1st or 2nd Degree)</li><li>Receiving a Bribe</li><li>Receiving a Bribe by a Witness or a Juror</li><li>Riot</li><li>Removal of Identification Marks or Unlawful Possession</li><li>Robbery (1st or 2nd Degree)</li><li>Scheme to Defraud</li><li>Sexual Abuse of a Minor (1st, 2nd, or 3rd Degree)</li><li>Sexual Assault (1st, 2nd, or 3rd Degree)</li><li>Tampering with a Witness (1st Degree)</li><li>Tampering with Physical Evidence</li><li>Tampering with Public Records (1st Degree)</li><li>Terroristic Threatening</li><li>Theft (1st or 2nd Degree)</li><li>Unlawful Exploitation of a Minor</li><li>Unlawful Furnishing of Explosives</li><li>Possession of Child Pornography</li></ul>",
                 "selectedOption": null,
                 "options": [
                     {
@@ -212,18 +212,54 @@
             },
             {
                 "id": 3,
-                "value": "Have you had multiple felonies and have not been pardoned?",
+                "value": "Have you been convicted of two or more felonies?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "You might be able to vote. Please apply for restoration to the superior court in the county in which you were convicted then register to vote if your rights are restored. <br /><br />If you are uncertain about the next step, call 1-866-OUR-VOTE for more information.",
-                        "canVote": null
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You may be able to restore your right to vote by applying to the court for restoration of rights.",
+                        "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Arizona, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "value": "Do you owe any outstanding fines, fees, or restitution from your conviction?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote. You will be eligible once you complete your sentence and pay all fines, fees, and restitution that you owe.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "value": "Is your felony conviction from out of state?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "You need to go to court to apply for restoration of your voting rights.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Arizona, you are <strong>eligible</strong> for automatic restoration of voting rights if you meet all other conditions. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -266,8 +302,8 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Arkansas, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
+                        "result": "It is <strong>uncertain</strong> if you are eligible to vote. Restoration of voting rights in Arkansas is not automatic. You must have completed your sentence, including payment of all Legal Financial Obligations (LFOs), and submitted the required paperwork to restore your rights. Please visit the official Arkansas state website for more details and instructions on how to restore your voting rights: <br /><br /><a href='https://www.sos.arkansas.gov/elections/voter-information' target='_blank' class='btn'>Restore your rights here</a>",
+                        "canVote": null
                     }
                 ]
             }
@@ -298,17 +334,30 @@
             },
             {
                 "id": 2,
-                "value": "Are you currently incarcerated in a state or federal facility, on probation, or parole for a felony?",
+                "value": "Are you currently incarcerated in a state or federal facility for a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
-                        "value": "Yes, I'm incarcerated",
+                        "value": "Yes",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
                         "canVote": false
                     },
                     {
-                        "value": "Yes, I'm on probation or parole",
+                        "value": "No",
+                        "result": "In California, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Are you currently on probation or parole for a felony?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
                         "result": "In California, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     },
@@ -319,7 +368,6 @@
                     }
                 ]
             }
-
         ]
     },
     {
@@ -415,6 +463,24 @@
                         "canVote": true
                     }
                 ]
+            },
+            {
+                "id": 3,
+                "value": "Have you been convicted of an election crime?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, if you were convicted of an election crime, you are <strong>not eligible</strong> to vote until you complete both probation and parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Connecticut, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
             }
         ]
     },
@@ -461,8 +527,8 @@
             },
             {
                 "id": 3,
-                "value": "Have you been convicted of a felony of moral turpitude?",
-                "extra": "The phrase “moral turpitude” describes an offense or crime that is vile or an insult to morality. Such a crime typically involves fraud, dishonesty, or anything that goes against the norms of society. <strong>Common felonies of moral turpitude include:</strong><ul><li>Murder</li><li>Manslaughter</li><li>Assault</li><li>Sexual assault</li><li>Sexual abuse of a minor</li><li>Robbery</li><li>Arson</li><li>Burglary</li><li>Theft</li><li>Forgery</li><li>Endangering the welfare of a minor</li><li>Riot</li><li>Criminal mischef</li><li>Misconduct involving a controlled substance</li><li>Distribution or possession of child pornography</li></ul><strong>NOTE: </strong>This is not a complete list of felonies of moral turpitude. If you are unsure if your conviction qualifies as a felony of moral turpitude, call or have a friend or family member call 1-866-OUR-VOTE for assistance.",
+                "value": "Have you been convicted of a disqualifying felony?",
+                "extra": "Disqualifying felonies are: murder, manlaughter, bribery, improper influence, abuse of office, or sexual offense.",
                 "selectedOption": null,
                 "options": [
                     {
@@ -540,30 +606,43 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Florida, you are <strong>not eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
+                        "result": "In Florida, you are <strong>not eligible</strong> to vote.",
                         "canVote": false
                     }
                 ]
             },
             {
                 "id": 4,
-                "value": "Have you completed your sentence for a murder or sexual offense?",
+                "value": "Have you been convicted of murder or a felony sexual offense?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "To become eligible to register to vote, you must have your rights restored through clemency.<br /><br /> For assistance, contact the Restore Your Vote hotline by calling (202) 857-0314 or (888) 306-8683 (toll-free) or emailing: <br/><br/><a href='mailto:RestoreYourVote@campaignlegal.org.'>RestoreYourVote@campaignlegal.org.</a>",
-                        "canVote": null
-                    },
-                    {
-                        "value": "No",
-                        "result": "In Florida, you are <strong>not eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
+                        "result": "If you have been convicted of murder or a felony sexual offense, you are <strong>not eligible</strong> to vote unless you petition the governor for restoration of your voting rights, which is handled on a case-by-case basis.",
                         "canVote": false
                     },
                     {
-                        "value": "This doesn't apply to me",
-                        "result": "In Florida, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank'>Register to vote now</a>",
+                        "value": "No",
+                        "result": "In Florida, you are <strong>eligible</strong> to vote, provided all other requirements are met. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "value": "Was your felony conviction in a state other than Florida?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "If your conviction was out of state, you may need to follow that state's rules for restoring your voting rights. Check with the appropriate state authorities for guidance.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Florida, you are <strong>eligible</strong> to vote once all requirements, including payment of restitution and fees, are met. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -607,6 +686,24 @@
                     {
                         "value": "No",
                         "result": "In Georgia, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Do you have a first-time felony conviction or a deferred conviction?",
+                "extra": "This includes individuals whose convictions were deferred or who are participating in first-time offender programs.",
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "In Georgia, individuals with a deferred conviction or first-time felony conviction may be <strong>eligible</strong> to vote depending on the circumstances. Please check with your probation officer or local election office to confirm your status. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Georgia, you are <strong>eligible</strong> to vote if all other requirements are met. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -777,18 +874,23 @@
             },
             {
                 "id": 2,
-                "value": "Are you currently incarcerated for a felony or misdemeanor?",
+                "value": "Are you currently incarcerated, on work release, or furlough for a felony or misdemeanor?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Illinois, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote while incarcerated for a misdemeanor in Illinois. Your right to vote will be restored upon release. <br /><br /> For more information, please visit: <a href='https://www.findlaw.com/voting/my-voting-guide/can-felons-vote-in-illinois-.html' target='_blank'>FindLaw</a>",
+                        "canVote": false
                     },
                     {
                         "value": "Yes, a felony",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "Yes, on work release or furlough",
+                        "result": "In Illinois, you are <strong>not eligible</strong> to vote while on work release or furlough. Your voting rights will be restored upon completion of your program. <br /><br /> For more information, please visit: <a href='https://www.findlaw.com/voting/my-voting-guide/can-felons-vote-in-illinois-.html' target='_blank'>FindLaw</a>",
                         "canVote": false
                     },
                     {
@@ -873,13 +975,13 @@
             },
             {
                 "id": 2,
-                "value": "Were you convicted of homicide?",
+                "value": "Were you convicted of an infamous crime?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. <br /><br /><a href='https://governor.iowa.gov/services/voting-rights-restoration/' target='_blank' class='btn'>Restore your rights</a>",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You may be able to vote again by obtaining a pardon from the governor.",
                         "canVote": false
                     },
                     {
@@ -977,13 +1079,13 @@
             },
             {
                 "id": 2,
-                "value": "Were you convicted of homicide?",
-                "extra": null,
+                "value": "Were you convicted of one of the following?",
+                "extra": "<ul><li>Treason</li><li>Bribery in an election</li><li>A violent offense</li><li>Any offense under <a href=\"https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=39372\" target=\"_blank\">KRS Chapter 507</a></li><li>Any assault</li><li>Strangulation in the first degree</li><li>Human trafficking</li><li>Any felony conviction in another state or in the federal system</li></ul>",
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. <br /><br /><a href='https://governor.iowa.gov/services/voting-rights-restoration/' target='_blank' class='btn'>Restore your rights</a>",
+                        "result": "Unfortunately, automatic restoration of your voting rights is not available for these crimes. You can apply for clemency or restoration through the governor's office. For more information, visit the Kentucky Civil Rights Restoration page: <br /><br /><a href='https://civilrightsrestoration.ky.gov/Pages/qualify.aspx' target='_blank' class='btn'>Restore your rights</a>",
                         "canVote": false
                     },
                     {
@@ -996,7 +1098,7 @@
             {
                 "id": 3,
                 "value": "Are you currently...",
-                "extra": "<ul><li>Incarcerated for a felony?</li><li>On parole for a felony?</li><li>On probation for a felony?</li><li>Incarcerated for a misdemeanor and <strong>not</strong> awaiting trial?</li><ul>",
+                "extra": "<ul><li>Incarcerated for a felony?</li><li>On parole for a felony?</li><li>On probation for a felony?</li><li>Incarcerated for a misdemeanor and <strong>not</strong> awaiting trial?</li></ul>",
                 "selectedOption": null,
                 "options": [
                     {
@@ -1006,7 +1108,25 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Kentucky, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Kentucky, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "value": "Was your felony conviction out of state or a federal conviction?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "For out-of-state and federal convictions, the restoration process is different and may not follow Kentucky’s rules. You may need to apply for clemency or restoration of rights. Please visit the Kentucky Civil Rights Restoration page for more details: <br /><br /><a href='https://civilrightsrestoration.ky.gov/Pages/qualify.aspx' target='_blank' class='btn'>Restore your rights</a>",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Kentucky, you are <strong>eligible</strong> to vote, provided all other requirements are met. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1039,7 +1159,7 @@
             {
                 "id": 2,
                 "value": "Are you currently...",
-                "extra": "<ul><li>Incarcerated for a felony?</li><li>On probation and have been incarcerated in the last 5 years?</li><li>On parole and have been incarcerated in the last 5 years?</li><ul>",
+                "extra": "<ul><li>Incarcerated for a felony conviction?</li><li>On probation and have been incarcerated for a felony conviction in the last 5 years?</li><li>On parole and have been incarcerated for a felony conviction in the last 5 years?</li></ul>",
                 "selectedOption": null,
                 "options": [
                     {
@@ -1209,25 +1329,7 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been convicted of a felony?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "No",
-                        "result": "In Minnesota, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "value": "Are you currently incarcerated?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -1263,43 +1365,25 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Mississippi, you are <strong>eligible</strong> to vote. <br /><br />Only individuals convicted of one of 23 specific felony crimes lose the right to vote (arson; armed robbery; bigamy; bribery; embezzlement; extortion; felony bad check; felony shoplifting; forgery; larceny; murder; obtaining money or goods under false pretense; perjury; rape; receiving stolen property; robbery; theft; timber larceny; unlawful taking of motor vehicle; statutory rape; carjacking; and larceny under lease or rental agreement.) <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Mississippi, you are <strong>eligible</strong> to vote. <br /><br />Only individuals convicted of one of 23 specific felony crimes lose the right to vote: <br /><br /><ul><li>Arson</li><li>Armed robbery</li><li>Bigamy</li><li>Bribery</li><li>Embezzlement</li><li>Extortion</li><li>Felony bad check</li><li>Felony shoplifting</li><li>Forgery</li><li>Larceny</li><li>Murder</li><li>Manslaughter</li><li>Obtaining money or goods under false pretense</li><li>Perjury</li><li>Rape</li><li>Receiving stolen property</li><li>Robbery</li><li>Theft</li><li>Timber larceny</li><li>Unlawful taking of motor vehicle</li><li>Statutory rape</li><li>Carjacking</li><li>Larceny under lease or rental agreement</li></ul><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
             },
             {
                 "id": 2,
-                "value": "Were you convicted of homicide?",
+                "value": "Were you convicted of one of the following crimes: murder, manslaughter, rape, bribery, theft, arson, obtaining money or goods under false pretense, perjury, forgery, embezzlement, or bigamy?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. <br /><br /><a href='https://secure.everyaction.com/nD1pmVzJcEWyjWLxfxJorw2/' target='_blank' class='btn'>Restore your rights</a>",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote can only be restored through a bill passed by both houses of the legislature or through the Governor. Note that in Mississippi, your voting rights are <strong>not</strong> automatically restored after completing probation or parole.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Are you currently on probation or parole for one of the 23 barred crimes?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote can only be granted through a bill passed by both houses of the legislature or through the Governor.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": "In Mississippi, you are <strong>eligible</strong> to vote as long as you are not incarcerated for a felony or misdemeanor. <br /><br />Only individuals convicted of one of 23 specific felony crimes lose the right to vote (arson; armed robbery; bigamy; bribery; embezzlement; extortion; felony bad check; felony shoplifting; forgery; larceny; murder; obtaining money or goods under false pretense; perjury; rape; receiving stolen property; robbery; theft; timber larceny; unlawful taking of motor vehicle; statutory rape; carjacking; and larceny under lease or rental agreement.) <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Mississippi, you are <strong>eligible</strong> to vote. <br /><br />Only individuals convicted of one of 23 specific felony crimes lose the right to vote: <br /><br /><ul><li>Arson</li><li>Armed robbery</li><li>Bigamy</li><li>Bribery</li><li>Embezzlement</li><li>Extortion</li><li>Felony bad check</li><li>Felony shoplifting</li><li>Forgery</li><li>Larceny</li><li>Murder</li><li>Manslaughter</li><li>Obtaining money or goods under false pretense</li><li>Perjury</li><li>Rape</li><li>Receiving stolen property</li><li>Robbery</li><li>Theft</li><li>Timber larceny</li><li>Unlawful taking of motor vehicle</li><li>Statutory rape</li><li>Carjacking</li><li>Larceny under lease or rental agreement</li></ul><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -1422,55 +1506,19 @@
             },
             {
                 "id": 2,
-                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "value": "Have you received clemency for your felony conviction?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Has it been more than 2 years since you have completed your sentence for a felony, including probation or parole?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "No",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You can register to vote 2 years after you have completed your parole/probation sentence.",
-                        "canVote": false
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Have you been convicted of treason?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": "In Nebraska, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Nebraska, you are <strong>eligible</strong> to vote since you have received clemency. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote in Nebraska unless you receive clemency. For more information on clemency and restoring your voting rights, please visit the official Nebraska site: <br /><br /><a href='https://www.nebraska.gov/governor/pardons/' target='_blank' class='btn'>Learn more about clemency here</a>",
+                        "canVote": false
                     }
                 ]
             }
@@ -1627,37 +1675,14 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Have you ever been convicted of a felony?",
+                "value": "Are you currently incarcerated?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
-                        "value": "Yes",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "No",
-                        "result": "In New Mexico, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes, I am currently incarcerated for a felony.",
+                        "value": "Yes, I am currently incarcerated.",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
                         "canVote": false
-                    },
-                    {
-                        "value": "Yes, I am on parole or probation for a felony.",
-                        "result": "In New Mexico, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
                     },
                     {
                         "value": "No",
@@ -1752,8 +1777,62 @@
                     },
                     {
                         "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Have you completed your sentence including probation and or parole?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
                         "result": "In North Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately, you are not yet eligible to restore your voting rights. You will be eligible once you complete your sentence including probation or parole.",
+                        "canVote": false
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "value": "Do you owe any outstanding fines, fees, or restitution from your conviction?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are currently ineligible to restore your voting rights. You are ineligible to restore your right to vote until you have paid off your fines, fees, and restitution.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In North Carolina, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "value": "Have you completed probation or parole as part of your sentence?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "In North Carolina, you are <strong>eligible</strong> to vote if all other conditions are met. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately, you are not yet eligible to vote. You must complete your probation or parole to restore your voting rights.",
+                        "canVote": false
                     }
                 ]
             }
@@ -2048,12 +2127,30 @@
                 "options": [
                     {
                         "value": "Yes, a misdemeanor",
-                        "result": "In Pennsylvania, you are <strong>eligible</strong> to vote. Please request absentee ballot from office administrators at your complex. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Pennsylvania, you are <strong>eligible</strong> to vote. Please request an absentee ballot from office administrators at your complex. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     },
                     {
                         "value": "Yes, a felony",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": "In Pennsylvania, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Have you been convicted of violating the Pennsylvania Election Code in the last four years?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, if you were convicted of violating the Pennsylvania Election Code within the last four years, you are <strong>not eligible</strong> to vote. You will be eligible after the four-year waiting period has passed.",
                         "canVote": false
                     },
                     {
@@ -2127,6 +2224,24 @@
         "questions": [
             {
                 "id": 1,
+                "value": "Are you currently in custody for a misdemeanor?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote while incarcerated for a misdemeanor in South Carolina. Your right to vote will be restored upon release.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 2,
                 "value": "Have you ever been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
@@ -2144,7 +2259,7 @@
                 ]
             },
             {
-                "id": 2,
+                "id": 3,
                 "value": "Are you currently incarcerated, on probation, or parole for a felony?",
                 "extra": null,
                 "selectedOption": null,
@@ -2194,7 +2309,7 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Voting rights in South Dakota are restored only after completing your incarceration or parole, but you must also ensure that all Legal Financial Obligations (LFOs) related to your sentence are fully paid.",
                         "canVote": false
                     },
                     {
@@ -2212,7 +2327,7 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. If you are on probation for a felony conviction, your voting rights will be restored after completing probation and ensuring all Legal Financial Obligations (LFOs) related to your conviction are paid.",
                         "canVote": false
                     },
                     {
@@ -2231,133 +2346,36 @@
         "questions": [
             {
                 "id": 1,
-                "value": "Do you owe child support or court fees?",
+                "value": "Have you been convicted of a felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You may be able to restore your right to vote by petitioning for restoration or being pardoned by the governor.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            },
-            {
-                "id": 2,
-                "value": "Have you ever been convicted of a felony?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "No",
-                        "result": "In Tennessee, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Have you committed any of these 21 crimes?",
-                "extra": "<ul><li>Abusing a female child</li><li>Arson and felonious burning</li><li>Bigamy</li><li>Bribery</li><li>Burglary</li><li>Felonious breaking into a business house</li><li>outhouse other than a dwelling house</li><li>Felonious breaking and entering a dwelling house</li><li>Larceny</li><li>Horse stealing</li><li>Robbery</li><li>Stealing bills of exchange or other valuable papers</li><li>Receiving stolen property</li><li>Counterfeiting</li><li>Forgery</li><li>Destroying a will</li><li>Incest</li><li>Rape</li><li>Sodomy</li><li>Buggery</li><li>Perjury</li><li>Subornation of perjury?</li></ul>",
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>permanently disenfranchised</strong> from voting.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            },
-            {
-                "id": 4,
-                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": "In Tennessee, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
-                    }
-                ]
-            },
-            {
-                "id": 5,
-                "value": "Were you convicted between 1973 and 1981?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Individuals who have been convicted of felonies of moral turputide are eligible to vote only upon completion of their sentence, including probation and parole. The phrase “moral turpitude” describes an offense or crime that is vile or an insult to morality. Such a crime typically involves fraud, dishonesty, or anything that goes against the norms of society. <br /><br />Common felonies of moral turpitude include: murder, manslaughter, assault, sexual assault, sexual abuse of a minor, robery, arson, burglary, theft, forgery, endangering the welfare of a minor, riot, criminal mischef, misconduct involving a controlled substance, and distribution or possession of child pornography.<br /><br /><strong>NOTE: </strong>This is not a complete list of felonies of moral turpitude. If you are unsure if your conviction qualifies as a felony of moral turpitude, call or have a friend or family member call 1-866-OUR-VOTE for assistance.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "label": "Texas",
-        "value": "Texas",
-        "isSelected": false,
-        "questions": [
-            {
-                "id": 1,
-                "value": "Have you ever been convicted of a felony?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": null,
-                        "canVote": null
-                    },
-                    {
-                        "value": "No",
-                        "result": "In Texas, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Tennessee, you are <strong>eligible</strong> to vote, even if you owe child support. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
             },
             {
                 "id": 2,
-                "value": "Are you currently incarcerated, on probation, or parole for a felony?",
+                "value": "Have you ever lost your right to vote?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "result": "You may need to petition for the restoration of your voting rights. Voting rights restoration in Tennessee is not automatic.",
                         "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "In Texas, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "You retain your voting rights and are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
@@ -2503,13 +2521,31 @@
                     },
                     {
                         "value": "Yes, a felony",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. You may be able to restore your right to vote by applying for civil rights restoration.",
                         "canVote": false
                     },
                     {
                         "value": "No",
                         "result": "In Virginia, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Were your rights restored by Governor Northam prior to 2022?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "If your rights were restored by Governor Northam prior to 2022, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    },
+                    {
+                        "value": "No",
+                        "result": "If your rights were not restored by Governor Northam prior to 2022, you may need to apply for restoration.",
+                        "canVote": false
                     }
                 ]
             }
@@ -2670,14 +2706,14 @@
             },
             {
                 "id": 2,
-                "value": "Are you currently incarcerated for a felony?",
+                "value": "Were you convicted of a non-violent felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
+                        "result": "If you have completed your sentence for a non-violent felony in Wyoming, you may be eligible for automatic restoration of voting rights, depending on the time period and jurisdiction. Please verify your status or visit the Wyoming Secretary of State website for more information on how to restore your rights.",
+                        "canVote": null
                     },
                     {
                         "value": "No",
@@ -2688,47 +2724,37 @@
             },
             {
                 "id": 3,
-                "value": "Have you completed your sentence for more than one non-violent felony?",
+                "value": "Were you convicted of a violent felony?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": null,
+                        "result": "In Wyoming, if you were convicted of a violent felony, your voting rights may be restored automatically after five years post-sentence completion, including probation or parole. However, automatic restoration is not guaranteed. Please contact the Wyoming Secretary of State or visit the Wyoming Secretary of State website for further guidance on restoring your rights.",
                         "canVote": null
                     },
                     {
                         "value": "No",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "This doesn't apply to me",
-                        "result": null,
-                        "canVote": null
+                        "result": "In Wyoming, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
                     }
                 ]
             },
             {
                 "id": 4,
-                "value": "Have you completed your sentence for a violent felony, including probation or parole?",
+                "value": "Have you received clemency for your felony conviction?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "In Wyoming, people with violent felony convictions are permanently disenfranchised unless they appeal to the governor after a waiting period (5 years for restoration, 10 years for a pardon).<br/><br/>Please apply to your Governor for voting rights restoration.",
-                        "canVote": null
+                        "result": "If you have received clemency, your voting rights may be restored. Please confirm your status with the Wyoming Secretary of State or visit the Wyoming Secretary of State website for more information.",
+                        "canVote": true
                     },
                     {
                         "value": "No",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "result": "If your rights have not been restored through clemency or automatic restoration, you are <strong>not eligible</strong> to vote. Please visit the Wyoming Secretary of State website for more details on the restoration process.",
                         "canVote": false
-                    },
-                    {
-                        "value": "This doesn't apply to me",
-                        "result": "In Wyoming, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
                     }
                 ]
             }
