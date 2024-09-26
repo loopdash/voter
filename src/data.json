@@ -692,19 +692,19 @@
             },
             {
                 "id": 3,
-                "value": "Do you have a first-time felony conviction or a deferred conviction?",
-                "extra": "This includes individuals whose convictions were deferred or who are participating in first-time offender programs.",
+                "value": "Are you First Offender Act or Conditional Discharge?",
+                "extra": "",
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "In Georgia, individuals with a deferred conviction or first-time felony conviction may be <strong>eligible</strong> to vote depending on the circumstances. Please check with your probation officer or local election office to confirm your status. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": null
+                        "result": "In Georgia, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
                     },
                     {
                         "value": "No",
-                        "result": "In Georgia, you are <strong>eligible</strong> to vote if all other requirements are met. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
                     }
                 ]
             }
