@@ -471,6 +471,11 @@
                         "value": "No",
                         "result": "In Connecticut, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
+                    },
+                    {
+                        "value": "I Don't Know",
+                        "result": "<a href='http://www.jud2.ct.gov/crdockets/SearchByDefDisp.aspx' target='_blank' class='btn'>Use this database to look up your conviction</a>",
+                        "canVote": null
                     }
                 ]
             },
@@ -482,13 +487,13 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": null,
-                        "canVote": null
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
                     },
                     {
                         "value": "No",
                         "result": "In Connecticut, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
+                        "canVote": null
                     }
                 ]
             },
@@ -507,6 +512,11 @@
                         "value": "No",
                         "result": "In Connecticut, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
+                    },
+                    {
+                        "value": "I Don't Know",
+                        "result": "Any felony convictions under laws listed in Title 9 of the Connecticut Statutes are considered election crimes for purposes of voting rights restoration.</br></br><a href='http://www.jud2.ct.gov/crdockets/SearchByDefDisp.aspx' target='_blank' class='btn'>Use this database to look up your conviction</a>",
+                        "canVote": null
                     }
                 ]
             },
@@ -524,7 +534,7 @@
                     {
                         "value": "No",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": true
+                        "canVote": false
                     }
                 ]
             }
@@ -753,6 +763,24 @@
             },
             {
                 "id": 2,
+                "value": "Do you meet ANY of the following exceptions?",
+                "extra": "<p>1. You pled nolo contendere ('no contest'), even if you are still serving a sentence.</p><p>OR</p><p>2. You were sentenced under the First Offender Act and your sentence has not been revoked,</p><p>OR</p></p> 3. You were sentenced under the Conditional Discharge statute and your sentence has not been revoked.</p>",
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "In Georgia, you are <strong>eligible</strong> to vote. <br /><br /> Georgia law creates three exceptions to the rule that a felony temporarily takes away the right to vote. Your right to vote is not lost if one of the following is true for your felony conviction(s): </br></br>You pled nolo contendere (“no contest”), even if you are still serving a felony sentence. (O.C.G.A. § 17-7-95); </br> </br> or </br></br>You were sentenced under the First Offender Act AND your sentence has not been revoked. (O.C.G.A. § 42-8-60).</br></br>or</br></br>You were sentenced under the Conditional Discharge statute AND your sentence has not been revoked. (O.C.G.A. § 16-13-2).</br></br>If any of the above applies to your felony conviction(s), you remain eligible to vote, even while serving your sentence.<a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
                 "value": "Have you completed your sentence including parole, probation, and fines?",
                 "extra": null,
                 "selectedOption": null,
@@ -770,7 +798,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 4,
                 "value": "Have you been on probation for more than three years?",
                 "extra": null,
                 "selectedOption": null,
@@ -1066,6 +1094,24 @@
                     {
                         "value": "No",
                         "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Are you serving time only for a conviction from a state court outside of Iowa?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Please go back and use this tool based on the state of your felony conviction instead of the state you wish to vote and then return here.  IF your right to vote was restored based on your state of conviction, it is also restored in Iowa.",
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
                         "canVote": false
                     }
                 ]
@@ -1085,6 +1131,24 @@
                         "value": "No",
                         "result": "In Iowa, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Was your right restored in the state of your conviction?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "In Iowa, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "canVote": true
+                    },
+                    {
+                        "value": "No",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
+                        "canVote": false
                     }
                 ]
             },
@@ -1333,7 +1397,7 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote. You will become eligible when you complete your sentence, including probation and/or parole, or after you have been released from incarceration for five years, whichever is sooner.",
                         "canVote": false
                     },
                     {
@@ -1345,6 +1409,24 @@
             },
             {
                 "id": 3,
+                "value": "Have you served time in prison for a felony conviction in the last five years?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote. You will become eligible when you complete your sentence, including probation and/or parole, or after you have been released from incarceration for five years, whichever is sooner.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 4,
                 "value": "Have you been convicted of election fraud or any other election offense?",
                 "extra": null,
                 "selectedOption": null,
@@ -1356,13 +1438,13 @@
                     },
                     {
                         "value": "No",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote.",
+                        "result": "In Louisiana, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
                 ]
             },
             {
-                "id": 4,
+                "id": 5,
                 "value": "Have you been finally discharged from any probation or parole sentence from the election fraud conviction or other election offense?",
                 "extra": null,
                 "selectedOption": null,
@@ -1370,12 +1452,12 @@
                     {
                         "value": "Yes",
                         "result": "In Louisiana, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": null
+                        "canVote": true
                     },
                     {
                         "value": "No",
-                        "result": "In Louisiana, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote. You will become eligible when you complete your sentence, including probation and/or parole. ",
+                        "canVote": false
                     }
                 ]
             }
@@ -1898,7 +1980,7 @@
             },
             {
                 "id": 2,
-                "value": "Have you been convicted of a felony?",
+                "value": "Are you currently incarcerated for your felony conviction?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
@@ -2308,14 +2390,14 @@
             },
             {
                 "id": 2,
-                "value": "Have you been convicted of violating the Pennsylvania Election Code in the last four years?",
+                "value": "Are you currently incarcerated for your felony conviction(s)?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, if you were convicted of violating the Pennsylvania Election Code within the last four years, you are <strong>not eligible</strong> to vote. You will be eligible after the four-year waiting period has passed.",
-                        "canVote": false
+                        "result": null,
+                        "canVote": null
                     },
                     {
                         "value": "No",
@@ -2326,13 +2408,13 @@
             },
             {
                 "id": 3,
-                "value": "Are you currently incarcerated for your felony conviction(s)?",
+                "value": "Have you been convicted of violating the Pennsylvania Election Code in the last four years?",
                 "extra": null,
                 "selectedOption": null,
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when you are released from incarceration, even if you are on probation or parole.",
+                        "result": "Unfortunately, if you were convicted of violating the Pennsylvania Election Code within the last four years, you are <strong>not eligible</strong> to vote. You will be eligible after the four-year waiting period has passed.",
                         "canVote": false
                     },
                     {
@@ -2485,42 +2567,6 @@
             },
             {
                 "id": 2,
-                "value": "Are you currently incarcerated for your felony conviction?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            },
-            {
-                "id": 3,
-                "value": "Are you currently on probation or on parole?",
-                "extra": null,
-                "selectedOption": null,
-                "options": [
-                    {
-                        "value": "Yes",
-                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. If you are on probation for a felony conviction, your voting rights will be restored after completing probation and ensuring all Legal Financial Obligations (LFOs) related to your conviction are paid.",
-                        "canVote": false
-                    },
-                    {
-                        "value": "No",
-                        "result": null,
-                        "canVote": null
-                    }
-                ]
-            },
-            {
-                "id": 5,
                 "value": "Were you convicted before July 1, 2012 or after July 1, 2012?",
                 "extra": null,
                 "selectedOption": null,
@@ -2532,6 +2578,65 @@
                     },
                     {
                         "value": "After July 1, 2012",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "I Don't Know",
+                        "result": "You can use this <a href='https://ujspars.sd.gov/' target='_blank'>database</a> to look up your conviction. There is a $20 fee per search. You can also <a href='https://ujs.sd.gov/Circuit_Court/Default.aspx' target='_blank'> contact the clerk of court</a> in your county to ask about accessing your records.",
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "value": "Were you sentenced to a term of imprisonment?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": null,
+                        "canVote": null
+                    },
+                    {
+                        "value": "No",
+                        "result": "In South Dakota, those convicted of a felony before 2012 and who were not sentenced to imprisonment did not lose their right to vote and can vote now.  ",
+                        "canVote": true
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "value": "Are you currently incarcerated for your felony conviction?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. Your right to vote will be restored when your sentence ends, including any parole and/or probation.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
+                        "result": null,
+                        "canVote": null
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "value": "Are you currently on probation or on parole?",
+                "extra": null,
+                "selectedOption": null,
+                "options": [
+                    {
+                        "value": "Yes",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now. If you are on probation for a felony conviction, your voting rights will be restored after completing probation and ensuring all Legal Financial Obligations (LFOs) related to your conviction are paid.",
+                        "canVote": false
+                    },
+                    {
+                        "value": "No",
                         "result": "In South Dakota, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     }
