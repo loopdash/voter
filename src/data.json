@@ -805,12 +805,12 @@
                 "options": [
                     {
                         "value": "Yes",
-                        "result": "In Georgia, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
-                        "canVote": true
+                        "result": "You are not eligible to vote yet, but you may be eligible for <a href='https://gjp.org/probation/' target='_blank'>early termination</a> of your probation, which would restore your voting rights. Once your sentence ends, your fines will dissolve.",
+                        "canVote": false
                     },
                     {
                         "value": "No",
-                        "result": "You are not eligible to vote yet, but you may be eligible for early termination of your probation, which would restore your voting rights.",
+                        "result": "Unfortunately, you are <strong>not eligible</strong> to vote right now..",
                         "canVote": false
                     }
                 ]
@@ -3027,7 +3027,7 @@
                     },
                     {
                         "value": "No",
-                        "result": "In Wyoming, you are <strong>eligible</strong> to vote. <br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
+                        "result": "In Wyoming, no one loses the right to vote for misdemeanors or any other convictions than felonies. If you are incarcerated but have not been convicted of a felony, you are still <strong>eligible</strong> to vote.  That’s true even if you have been charged with a felony.<br /><br /><a href='https://respectmyvote.com/register-to-vote/' target='_blank' class='btn'>Register to vote now</a>",
                         "canVote": true
                     },
                     {
